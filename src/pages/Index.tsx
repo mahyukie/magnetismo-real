@@ -1,3 +1,4 @@
+import { CountdownBanner } from "@/components/CountdownBanner";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { PainPointsSection } from "@/components/sections/PainPointsSection";
 import { StorySection } from "@/components/sections/StorySection";
@@ -15,7 +16,8 @@ import { FloatingCTA } from "@/components/FloatingCTA";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background pt-14">
+      <CountdownBanner />
       <HeroSection />
       <PainPointsSection />
       <StorySection />
