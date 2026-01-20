@@ -4,7 +4,7 @@ export const ObjectionsSection = () => {
   const objections = [
     {
       question: "\"Isso é muito caro para mim\"",
-      answer: "Por apenas R$147 (menos que uma sessão de terapia), você tem acesso ao sistema completo + bônus exclusivos que valem mais de R$200. É o investimento mais barato que você pode fazer em sua transformação."
+      answer: "Por apenas R$197 (menos que UMA sessão de terapia), você tem acesso ao sistema completo + bônus exclusivos que valem mais de R$400. É o investimento mais barato que você pode fazer em sua transformação. Lembre-se: o valor original é R$1.997!"
     },
     {
       question: "\"Não tenho tempo para me dedicar totalmente\"",

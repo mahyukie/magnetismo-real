@@ -1,5 +1,5 @@
 import { Check, Sparkles } from "lucide-react";
-import mockupImage from "@/assets/mockup-ebook.jpg";
+import mockupImage from "@/assets/mockup-devices.png";
 
 export const DeliverablesSection = () => {
   const deliverables = [
@@ -53,18 +53,31 @@ export const DeliverablesSection = () => {
           </div>
 
           {/* Mockup Image */}
-          <div className="relative">
+          <div className="relative flex flex-col items-center">
             <div className="absolute inset-0 bg-secondary/20 blur-3xl rounded-full" />
             <img 
               src={mockupImage} 
-              alt="Método Cleópatra - Material Digital" 
-              className="relative z-10 w-full max-w-md mx-auto rounded-2xl shadow-gold animate-float"
+              alt="Método Cleópatra - Acesse em qualquer dispositivo" 
+              className="relative z-10 w-full max-w-lg mx-auto rounded-2xl shadow-gold"
             />
-            <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-card px-6 py-3 rounded-full border border-secondary/30 shadow-gold">
-              <p className="text-sm font-semibold text-foreground flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-secondary" />
-                Acesso Imediato Após a Compra
+            <div className="relative z-10 mt-6 bg-card px-6 py-4 rounded-2xl border border-secondary/30 shadow-gold text-center">
+              <p className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
+                <Sparkles className="w-5 h-5 text-secondary" />
+                Acesso Imediato em Qualquer Dispositivo
+                <Sparkles className="w-5 h-5 text-secondary" />
               </p>
+              <p className="text-muted-foreground text-sm mt-1">
+                📱 Celular • 💻 Computador • 📲 Tablet
+              </p>
+              <div className="mt-3 pt-3 border-t border-border/30">
+                <p className="text-sm text-muted-foreground">
+                  De <span className="line-through">R$1.997,00</span>
+                </p>
+                <p className="text-2xl font-bold text-secondary">
+                  Por apenas R$197,00
+                </p>
+                <p className="text-xs text-muted-foreground">ou 12x de R$19,58</p>
+              </div>
             </div>
           </div>
         </div>
