@@ -57,7 +57,7 @@ export const BenefitsSection = () => {
             🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
           </Button>
           <p className="text-muted-foreground mt-4 text-sm">
-            Por apenas <span className="text-secondary font-bold text-lg">R$147</span> ou 10x de R$19,70
+            De <span className="line-through">R$1.997</span> por apenas <span className="text-secondary font-bold text-lg">R$197</span> ou 12x de R$19,58
           </p>
         </div>
       </div>

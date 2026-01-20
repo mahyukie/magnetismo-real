@@ -29,7 +29,7 @@ export const FAQSection = () => {
     },
     {
       question: "Como posso pagar?",
-      answer: "✅ Aceitamos cartão de crédito com parcelamento em até 10x de R$19,70 ou à vista por R$147 via PIX (com desconto especial)."
+      answer: "✅ Aceitamos cartão de crédito com parcelamento em até 12x de R$19,58 ou à vista por R$197 via PIX (com desconto especial)."
     }
   ];
 

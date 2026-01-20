@@ -73,7 +73,7 @@ export const GuaranteeSection = () => {
         {/* Final CTA */}
         <div className="text-center mt-12">
           <Button variant="cta" size="xxl" className="w-full max-w-xl">
-            ✨ SIM, QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA - APENAS R$147
+            ✨ SIM, QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA - APENAS R$197
           </Button>
         </div>
       </div>
