@@ -1,6 +1,7 @@
 import { CountdownBanner } from "@/components/CountdownBanner";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { PainPointsSection } from "@/components/sections/PainPointsSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { StorySection } from "@/components/sections/StorySection";
 import { MethodSection } from "@/components/sections/MethodSection";
 import { DeliverablesSection } from "@/components/sections/DeliverablesSection";
@@ -20,6 +21,7 @@ const Index = () => {
       <CountdownBanner />
       <HeroSection />
       <PainPointsSection />
+      <TestimonialsSection />
       <StorySection />
       <MethodSection />
       <DeliverablesSection />
