@@ -4,35 +4,31 @@ import mockupImage from "@/assets/mockup-devices.png";
 export const DeliverablesSection = () => {
   const modules = [
     {
-      title: "Módulo 1: Libertação Emocional",
+      title: "Módulo 1: Renascimento da Fênix",
       items: [
-        "Ritual de Libertação Emocional do Passado - Elimine a ansiedade obsessiva sobre o ex em 72 horas",
-        "Técnica de Ressignificação da Rejeição - Transforme dor em combustível para sua nova versão",
-        "Protocolo de Cura das Feridas de Abandono do Passado - Supere padrões repetitivos de relacionamentos"
+        "Ritual de Libertação Emocional do Passado",
+        "Técnica de Ressignificação da Rejeição",
+        "Protocolo de Cura das Feridas de Abandono",
+        "Exercícios de Reconexão com Sua Essência Feminina"
       ]
     },
     {
-      title: "Módulo 2: Essência Feminina",
+      title: "Módulo 2: Arquétipo Cleópatra",
+      subtitle: "Dominando a Arte da Sedução Magnética e Presença Irresistível",
       items: [
-        "Exercícios de Reconexão com Sua Essência Feminina - Desperte seu magnetismo natural",
-        "Os 7 Pilares do Magnetismo Feminino - Desperte a energia que faz homens pararem para olhar",
-        "Linguagem Corporal de Poder e Sedução - Comunique valor sem dizer uma palavra"
+        "Os 7 Pilares do Magnetismo Feminino",
+        "Linguagem Corporal de Poder e Sedução",
+        "Técnicas de Comunicação Hipnótica",
+        "Protocolo de Elevação da Auto Estima"
       ]
     },
     {
-      title: "Módulo 3: Comunicação e Autoestima",
+      title: "Módulo 3: Estratégias de Reconquista Magnética",
       items: [
-        "Técnicas de Comunicação Hipnótica - Crie fascínio genuíno em qualquer conversa",
-        "Protocolo de Elevação da Autoestima - Desenvolva confiança inabalável independente de validação externa"
-      ]
-    },
-    {
-      title: "Módulo 4: Sedução e Atração",
-      items: [
-        "Sistema de Criação de Escassez Saudável - Ative o desejo masculino usando o Princípio da Escassez Neural",
-        "Técnicas Avançadas de Sedução Psicológica - Domine a arte da \"Disponibilidade Seletiva\"",
-        "Protocolo de Atração de Homens de Alto Valor - Atraia parceiros de qualidade naturalmente",
-        "Estratégias de Reconquista Sem Perseguição - Faça-o vir até você sem jogos infantis"
+        "Sistema de Criação de Escassez Saudável",
+        "Técnicas Avançadas de Sedução Psicológica",
+        "Protocolo de Atração de Homens de Alto Valor",
+        "Estratégias de Reconquista Sem Perseguição"
       ]
     }
   ];
@@ -55,7 +51,7 @@ export const DeliverablesSection = () => {
           {/* Modules List */}
           <div className="space-y-6">
             {modules.map((module, moduleIndex) => (
-              <div key={moduleIndex} className="bg-card/30 rounded-2xl border border-border/30 overflow-hidden">
+            <div key={moduleIndex} className="bg-card/30 rounded-2xl border border-border/30 overflow-hidden">
                 <div className="bg-secondary/20 px-5 py-3 border-b border-border/30">
                   <h3 className="font-semibold text-foreground text-lg flex items-center gap-2">
                     <span className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-secondary-foreground font-bold text-sm">
@@ -63,6 +59,9 @@ export const DeliverablesSection = () => {
                     </span>
                     {module.title}
                   </h3>
+                  {module.subtitle && (
+                    <p className="text-muted-foreground text-sm mt-1 ml-10">{module.subtitle}</p>
+                  )}
                 </div>
                 <div className="p-4 space-y-3">
                   {module.items.map((item, itemIndex) => (
