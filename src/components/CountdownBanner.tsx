@@ -5,12 +5,25 @@ export const CountdownBanner = () => {
   const [timeLeft, setTimeLeft] = useState({ hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
+    const COUNTDOWN_KEY = 'countdown_start_time';
+    const COUNTDOWN_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+
+    const getStartTime = () => {
+      const stored = localStorage.getItem(COUNTDOWN_KEY);
+      if (stored) {
+        return parseInt(stored, 10);
+      }
+      const now = Date.now();
+      localStorage.setItem(COUNTDOWN_KEY, now.toString());
+      return now;
+    };
+
+    const startTime = getStartTime();
+
     const calculateTimeLeft = () => {
-      const now = new Date();
-      const endOfDay = new Date();
-      endOfDay.setHours(23, 59, 59, 999);
-      
-      const difference = endOfDay.getTime() - now.getTime();
+      const now = Date.now();
+      const endTime = startTime + COUNTDOWN_DURATION;
+      const difference = endTime - now;
       
       if (difference > 0) {
         const hours = Math.floor(difference / (1000 * 60 * 60));
@@ -20,6 +33,7 @@ export const CountdownBanner = () => {
         setTimeLeft({ hours, minutes, seconds });
       } else {
         setTimeLeft({ hours: 0, minutes: 0, seconds: 0 });
+        localStorage.removeItem(COUNTDOWN_KEY);
       }
     };
 

@@ -53,8 +53,10 @@ export const BenefitsSection = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl">
-            🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
+          <Button variant="cta" size="xxl" className="w-full max-w-xl" asChild>
+            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+              🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
+            </a>
           </Button>
           <p className="text-muted-foreground mt-4 text-sm">
             De <span className="line-through">R$1.997</span> por apenas <span className="text-secondary font-bold text-lg">R$197</span> ou 12x de R$19,58

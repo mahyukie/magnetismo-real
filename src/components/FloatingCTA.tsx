@@ -40,8 +40,10 @@ export const FloatingCTA = () => {
             </p>
           </div>
         </div>
-        <Button variant="cta" size="lg" className="w-full sm:w-auto whitespace-nowrap">
-          QUERO AGORA →
+        <Button variant="cta" size="lg" className="w-full sm:w-auto whitespace-nowrap" asChild>
+          <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+            QUERO AGORA →
+          </a>
         </Button>
       </div>
     </div>

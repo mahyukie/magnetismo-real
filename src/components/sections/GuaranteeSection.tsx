@@ -54,7 +54,7 @@ export const GuaranteeSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground text-lg">✅ GARANTIA DE SUPORTE</h3>
                     <p className="text-muted-foreground mt-1">
-                      Acesso direto à nossa equipe de especialistas por 60 dias para tirar todas suas dúvidas.
+                      Acesso direto à nossa equipe de especialistas por 30 dias para tirar todas suas dúvidas.
                     </p>
                   </div>
                 </div>
@@ -72,8 +72,10 @@ export const GuaranteeSection = () => {
 
         {/* Final CTA */}
         <div className="text-center mt-12">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl">
-            ✨ SIM, QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA - APENAS R$197
+          <Button variant="cta" size="xxl" className="w-full max-w-xl" asChild>
+            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+              ✨ SIM, QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA - APENAS R$197
+            </a>
           </Button>
         </div>
       </div>
