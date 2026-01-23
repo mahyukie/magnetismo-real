@@ -6,7 +6,7 @@ export const CountdownBanner = () => {
 
   useEffect(() => {
     const COUNTDOWN_KEY = 'countdown_start_time';
-    const COUNTDOWN_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+    const COUNTDOWN_DURATION = 12 * 60 * 60 * 1000; // 12 hours in milliseconds
 
     const getStartTime = () => {
       const stored = localStorage.getItem(COUNTDOWN_KEY);

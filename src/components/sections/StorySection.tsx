@@ -21,7 +21,7 @@ export const StorySection = () => {
         {/* Story Content */}
         <div className="max-w-3xl mx-auto space-y-6 text-lg leading-relaxed">
           <p className="text-muted-foreground">
-            Talvez você seja como eu, <strong className="text-foreground">Marina de 34 anos</strong>, que após 4 anos de relacionamento me vi, perdida, sem chão, quando meu ex, <em>do NADA</em>, terminou tudo comigo. Sem saber o que fazer, ficava horas stalkeando as redes sociais do meu ex às 2h da manhã, me perguntando como poderia ter acontecido isso - logo comigo, que sempre fui a "certinha", a namorada perfeita.
+            Talvez você seja como eu, <strong className="text-foreground">Marina de 35 anos</strong>, que após 6 anos de relacionamento me vi, perdida, sem chão, quando meu ex, <em>do NADA</em>, terminou tudo comigo. Sem saber o que fazer, ficava horas stalkeando as redes sociais do meu ex às 2h da manhã, me perguntando como poderia ter acontecido isso - logo comigo, que sempre fui a "certinha", a namorada perfeita.
           </p>
 
           <p className="text-muted-foreground">
