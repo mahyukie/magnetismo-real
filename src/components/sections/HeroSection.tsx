@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Play, Shield, Clock, Users } from "lucide-react";
+import { Shield, Clock, Users } from "lucide-react";
 import logoCleopatra from "@/assets/logo-cleopatra.jpeg";
 import heroImage from "@/assets/hero-cleopatra.jpg";
 
@@ -26,17 +26,15 @@ export const HeroSection = () => {
           />
         </div>
 
-        {/* VSL Placeholder */}
+        {/* VSL Embed */}
         <div className="max-w-4xl mx-auto mb-8">
-          <div className="relative aspect-video bg-card rounded-xl border-2 border-secondary/30 shadow-gold overflow-hidden group cursor-pointer">
-            <div className="absolute inset-0 flex items-center justify-center bg-background/50 backdrop-blur-sm">
-              <div className="w-20 h-20 rounded-full bg-secondary flex items-center justify-center shadow-glow group-hover:scale-110 transition-transform">
-                <Play className="w-10 h-10 text-secondary-foreground ml-1" fill="currentColor" />
-              </div>
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent p-4">
-              <p className="text-center text-foreground/80 text-sm">Clique para assistir ao vídeo</p>
-            </div>
+          <div className="relative aspect-video bg-card rounded-xl border-2 border-secondary/30 shadow-gold overflow-hidden">
+            <iframe
+              src="https://player-vz-3ebd9223-994.tv.pandavideo.com.br/embed/?v=ca056d71-829e-4229-bcd3-4e7c3c0c0626"
+              className="absolute inset-0 w-full h-full"
+              allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
+              allowFullScreen
+            />
           </div>
           
           {/* Urgency Banner */}
@@ -49,8 +47,10 @@ export const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center mb-6">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl">
-            🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
+          <Button variant="cta" size="xxl" className="w-full max-w-xl" asChild>
+            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+              🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
+            </a>
           </Button>
         </div>
 
