@@ -46,7 +46,7 @@ export const CountdownBanner = () => {
   const formatNumber = (num: number) => num.toString().padStart(2, '0');
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-destructive via-destructive/90 to-destructive py-3 px-4 shadow-lg">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-destructive via-destructive/90 to-destructive py-2 md:py-3 px-3 md:px-4 shadow-lg">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
         <div className="flex items-center gap-2 text-destructive-foreground">
           <AlertTriangle className="w-5 h-5 animate-pulse" />
