@@ -2,7 +2,7 @@ import { HeartCrack, Eye, AlertTriangle } from "lucide-react";
 
 export const PainPointsSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-10 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
@@ -12,9 +12,9 @@ export const PainPointsSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto">
           {/* Pain Point 1 */}
-          <div className="bg-gradient-card p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
+          <div className="bg-gradient-card p-5 md:p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
             <div className="w-14 h-14 bg-primary/30 rounded-full flex items-center justify-center mb-6">
               <HeartCrack className="w-7 h-7 text-secondary" />
             </div>
@@ -30,7 +30,7 @@ export const PainPointsSection = () => {
           </div>
 
           {/* Pain Point 2 */}
-          <div className="bg-gradient-card p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
+          <div className="bg-gradient-card p-5 md:p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
             <div className="w-14 h-14 bg-primary/30 rounded-full flex items-center justify-center mb-6">
               <AlertTriangle className="w-7 h-7 text-secondary" />
             </div>
@@ -46,7 +46,7 @@ export const PainPointsSection = () => {
           </div>
 
           {/* Pain Point 3 */}
-          <div className="bg-gradient-card p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
+          <div className="bg-gradient-card p-5 md:p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
             <div className="w-14 h-14 bg-primary/30 rounded-full flex items-center justify-center mb-6">
               <Eye className="w-7 h-7 text-secondary" />
             </div>
@@ -93,8 +93,8 @@ export const PainPointsSection = () => {
         </div>
 
         {/* Scarcity Banner */}
-        <div className="max-w-4xl mx-auto mt-12 p-6 bg-gradient-to-r from-primary/30 via-secondary/20 to-primary/30 border border-secondary/40 rounded-xl text-center animate-pulse-slow">
-          <p className="text-lg md:text-xl font-bold text-foreground">
+        <div className="max-w-4xl mx-auto mt-8 md:mt-12 p-4 md:p-6 bg-gradient-to-r from-primary/30 via-secondary/20 to-primary/30 border border-secondary/40 rounded-xl text-center animate-pulse-slow">
+          <p className="text-sm md:text-xl font-bold text-foreground leading-relaxed">
             🔥 Devido à natureza exclusiva do método, estamos limitando o acesso para as primeiras <span className="text-secondary">25 mulheres</span> que entrarem no Método Cleópatra, nos próximos <span className="text-secondary">15 minutos</span>, afim de garantir resultados máximos!! 🔥
           </p>
         </div>

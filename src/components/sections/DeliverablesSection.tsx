@@ -34,7 +34,7 @@ export const DeliverablesSection = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-hero relative overflow-hidden">
+    <section className="py-10 md:py-24 bg-gradient-hero relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl -translate-y-1/2" />
 

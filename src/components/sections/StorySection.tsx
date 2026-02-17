@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const StorySection = () => {
   return (
-    <section className="py-16 md:py-24 bg-gradient-hero relative overflow-hidden">
+    <section className="py-10 md:py-24 bg-gradient-hero relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-secondary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
@@ -19,7 +19,7 @@ export const StorySection = () => {
         </div>
 
         {/* Story Content */}
-        <div className="max-w-3xl mx-auto space-y-6 text-lg leading-relaxed">
+        <div className="max-w-3xl mx-auto space-y-5 md:space-y-6 text-base md:text-lg leading-relaxed">
           <p className="text-muted-foreground">
             Talvez você seja como eu, <strong className="text-foreground">Marina de 35 anos</strong>, que após 6 anos de relacionamento me vi, perdida, sem chão, quando meu ex, <em>do NADA</em>, terminou tudo comigo. Sem saber o que fazer, ficava horas stalkeando as redes sociais do meu ex às 2h da manhã, me perguntando como poderia ter acontecido isso - logo comigo, que sempre fui a "certinha", a namorada perfeita.
           </p>

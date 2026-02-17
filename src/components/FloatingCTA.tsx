@@ -21,7 +21,7 @@ export const FloatingCTA = () => {
   if (!isVisible || isDismissed) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-card/95 backdrop-blur-md border-t border-secondary/30 shadow-gold animate-in slide-in-from-bottom duration-500">
+    <div className="fixed bottom-0 left-0 right-0 z-50 p-3 md:p-4 bg-card/95 backdrop-blur-md border-t border-secondary/30 shadow-gold animate-in slide-in-from-bottom duration-500">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-4">
           <button 

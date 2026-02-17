@@ -63,7 +63,7 @@ const stats = [
 
 export const TestimonialsSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden">
+    <section className="py-10 md:py-24 bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 bg-secondary rounded-full blur-3xl" />
@@ -104,7 +104,7 @@ export const TestimonialsSection = () => {
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-6 max-w-5xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index}

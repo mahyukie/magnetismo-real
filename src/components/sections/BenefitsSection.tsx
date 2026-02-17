@@ -14,7 +14,7 @@ export const BenefitsSection = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-hero relative overflow-hidden">
+    <section className="py-10 md:py-24 bg-gradient-hero relative overflow-hidden">
       {/* Decorative stars */}
       <div className="absolute top-10 right-10 text-secondary/20 animate-pulse">
         <Star className="w-16 h-16" fill="currentColor" />
