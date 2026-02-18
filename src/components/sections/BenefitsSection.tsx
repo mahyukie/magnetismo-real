@@ -52,8 +52,8 @@ export const BenefitsSection = () => {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl" asChild>
+        <div className="text-center mt-12 px-2">
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
               🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
             </a>

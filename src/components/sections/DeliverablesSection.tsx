@@ -47,7 +47,7 @@ export const DeliverablesSection = () => {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
           {/* Modules List */}
           <div className="space-y-6">
             {modules.map((module, moduleIndex) => (
