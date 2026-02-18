@@ -65,8 +65,8 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center mb-4 md:mb-6">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-sm md:text-base" asChild>
+        <div className="flex justify-center mb-4 md:mb-6 px-2">
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
               🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
             </a>
