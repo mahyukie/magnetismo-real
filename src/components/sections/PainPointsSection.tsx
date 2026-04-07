@@ -1,109 +1,77 @@
-import { HeartCrack, Eye, AlertTriangle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const PainPointsSection = () => {
+  const painChecklist = [
+    "Acorda no meio da madrugada pensando nele",
+    "Verifica compulsivamente as redes sociais dele",
+    "Se pergunta \"o que ela tem que eu não tenho?\"",
+    "Sente que perdeu toda sua capacidade de atrair homens",
+    "Tem medo de nunca mais ser desejada como antes",
+  ];
+
+  const failedAttempts = [
+    "Fingiu que estava bem nas redes sociais (mas chorou no banho)...",
+    "Saiu com outros homens para tentar esquecer (mas só se sentiu pior)...",
+    "Seguiu todos os conselhos das amigas (que só te confundiram mais)...",
+  ];
+
   return (
     <section className="py-10 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Você se identifica?</span>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mt-2 mb-4">
-            O TÉRMINO QUE <span className="text-gradient-gold">Ninguém Te Contou</span> 💔
+        {/* Opening */}
+        <div className="max-w-3xl mx-auto text-center mb-10 md:mb-16">
+          <h2 className="font-serif text-2xl md:text-4xl font-bold mb-6 leading-tight">
+            Querida amiga que está sofrendo em silêncio <span className="text-gradient-silver">por causa DELE...</span>
           </h2>
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
+            Sei que você está aqui porque algo dentro de você <strong className="text-foreground">QUEBROU</strong> quando ele disse aquelas palavras que mudaram tudo.
+          </p>
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+            E sei também que você já tentou de tudo para parar essa dor que corrói por dentro:
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto">
-          {/* Pain Point 1 */}
-          <div className="bg-gradient-card p-5 md:p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
-            <div className="w-14 h-14 bg-primary/30 rounded-full flex items-center justify-center mb-6">
-              <HeartCrack className="w-7 h-7 text-secondary" />
+        {/* Failed attempts */}
+        <div className="max-w-3xl mx-auto space-y-3 mb-10 md:mb-14">
+          {failedAttempts.map((item, index) => (
+            <div key={index} className="flex items-start gap-3 bg-muted/30 p-4 rounded-lg border border-border/30">
+              <span className="text-destructive text-lg flex-shrink-0">✗</span>
+              <p className="text-muted-foreground text-sm md:text-base">{item}</p>
             </div>
-            <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
-              😭 INSEGURANÇA TOTAL
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Como <strong className="text-foreground">ESQUECER</strong> aquele momento. O <em>EXATO MOMENTO</em> que ELE terminou com você? Aquela sensação QUE FEZ LITERALMENTE o chão desaparecer sob seus pés, o aperto no peito que não passa...
-            </p>
-            <p className="text-foreground mt-4 italic border-l-2 border-secondary pl-4">
-              "Por que eu não sou suficiente?" eu me perguntava toda vez que via uma foto dele sorrindo, com outra.
-            </p>
-          </div>
-
-          {/* Pain Point 2 */}
-          <div className="bg-gradient-card p-5 md:p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
-            <div className="w-14 h-14 bg-primary/30 rounded-full flex items-center justify-center mb-6">
-              <AlertTriangle className="w-7 h-7 text-secondary" />
-            </div>
-            <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
-              😰 BAIXA AUTO ESTIMA
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Tentar fazer ciúmes saindo com qualquer um... Isso apenas <strong className="text-foreground">reforça seu desespero</strong> e diminui ainda mais seu valor aos olhos dele e de outros homens de qualidade.
-            </p>
-            <p className="text-foreground mt-4 italic border-l-2 border-secondary pl-4">
-              Além disso, você acaba se machucando ainda mais ao se envolver com pessoas que não te valorizam.
-            </p>
-          </div>
-
-          {/* Pain Point 3 */}
-          <div className="bg-gradient-card p-5 md:p-8 rounded-2xl border border-border/50 shadow-card hover:border-secondary/30 transition-all">
-            <div className="w-14 h-14 bg-primary/30 rounded-full flex items-center justify-center mb-6">
-              <Eye className="w-7 h-7 text-secondary" />
-            </div>
-            <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
-              💔 OBSESSÃO CONSTANTE
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Tornar-se espiã profissional e <strong className="text-foreground">stalkeá-lo freneticamente</strong> no Insta ou no Face... ou até no Tinder 🔥 buscando evidências ou pistas.
-            </p>
-            <p className="text-foreground mt-4 italic border-l-2 border-secondary pl-4">
-              Verificando se ele já entrou em outro relacionamento, a cada minuto.
-            </p>
-          </div>
+          ))}
         </div>
 
-        {/* What You Tried */}
-        <div className="max-w-3xl mx-auto mt-16 text-center">
-          <h3 className="font-serif text-2xl md:text-3xl font-bold mb-8">
-            VOCÊ TENTOU... <span className="text-secondary">E o Pior de Tudo…</span>
-          </h3>
-          
-          <div className="grid sm:grid-cols-2 gap-4 text-left">
-            {[
-              "Seguir conselhos da família (cada um fala uma coisa)",
-              "Suas amigas (mais confusão que ajuda)",
-              "Coaches de Relacionamento que só diz \"é normal, vai passar\" (mas não passa)",
-              "Livros de Auto Ajuda (teoria que não funciona na prática)"
-            ].map((item, index) => (
-              <div key={index} className="flex items-start gap-3 bg-muted/30 p-4 rounded-lg border border-border/30">
-                <span className="text-destructive text-xl">✗</span>
-                <p className="text-muted-foreground">{item}</p>
+        {/* Checklist */}
+        <div className="max-w-3xl mx-auto">
+          <p className="text-center text-foreground font-medium text-base md:text-lg mb-6">
+            <strong>Posso estar errada</strong>, mas tenho quase certeza de que você:
+          </p>
+          <div className="space-y-3 mb-8">
+            {painChecklist.map((item, index) => (
+              <div key={index} className="flex items-start gap-3 bg-primary/10 p-4 rounded-lg border border-primary/20">
+                <span className="text-destructive text-lg flex-shrink-0">✗</span>
+                <p className="text-foreground text-sm md:text-base">{item}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-primary/20 border border-primary/40 rounded-xl">
-            <p className="text-lg font-medium text-foreground">
-              E <strong>nada funcionou.</strong>
+          <div className="p-6 bg-gradient-card border-2 border-secondary/30 rounded-2xl shadow-silver text-center my-8">
+            <p className="text-foreground font-semibold text-base md:text-lg">
+              Se você assentiu com a cabeça para pelo menos 3 dessas afirmações, então <span className="text-secondary">você está no lugar certo.</span>
             </p>
-            <p className="text-muted-foreground mt-2">
-              Porque o que você precisa não é mais informação fragmentada.
+            <p className="text-muted-foreground mt-3 text-sm md:text-base">
+              Porque o que vou compartilhar com você nas próximas linhas vai <strong className="text-foreground">mudar completamente</strong> a forma como você se vê e como os homens te veem.
             </p>
           </div>
         </div>
 
-        {/* Scarcity Banner */}
-        <div className="max-w-4xl mx-auto mt-8 md:mt-12 p-4 md:p-6 bg-gradient-to-r from-primary/30 via-secondary/20 to-primary/30 border border-secondary/40 rounded-xl text-center animate-pulse-slow">
-          <p className="text-sm md:text-xl font-bold text-foreground leading-relaxed">
-            🔥 Devido à natureza exclusiva do método, estamos limitando o acesso para as primeiras <span className="text-secondary">25 mulheres</span> que entrarem no Método Cleópatra, nos próximos <span className="text-secondary">15 minutos</span>, afim de garantir resultados máximos!! 🔥
-          </p>
-        </div>
-
-        {/* Social Proof */}
-        <div className="text-center mt-12">
-          <p className="text-2xl md:text-3xl font-bold text-secondary">
-            +3.000 MULHERES JÁ TRANSFORMARAM SUAS VIDAS ✨
-          </p>
+        {/* CTA */}
+        <div className="text-center mt-10 px-2">
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
+            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA - R$197
+            </a>
+          </Button>
         </div>
       </div>
     </section>
