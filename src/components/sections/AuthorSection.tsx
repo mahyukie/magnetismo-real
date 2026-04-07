@@ -1,70 +1,90 @@
 import marinaImage from "@/assets/marina-author.jpg";
-import logoCleopatra from "@/assets/logo-cleopatra.jpeg";
+import logoArtemis from "@/assets/logo-artemis.png";
+import { Button } from "@/components/ui/button";
 
 export const AuthorSection = () => {
   return (
     <section className="py-10 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <img 
-            src={logoCleopatra} 
-            alt="Método Cleópatra" 
-            className="h-16 mx-auto mb-6"
+        <div className="text-center mb-10 md:mb-12">
+          <img
+            src={logoArtemis}
+            alt="Protocolo Ártemis"
+            className="h-14 md:h-16 mx-auto mb-6"
+            loading="lazy"
           />
-          <h2 className="font-serif text-3xl md:text-5xl font-bold">
-            Conheça a <span className="text-gradient-gold">Criadora</span>
+          <h2 className="font-serif text-2xl md:text-5xl font-bold">
+            Conheça a <span className="text-gradient-silver">Criadora</span>
           </h2>
         </div>
 
-        {/* Author Card */}
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-card p-8 md:p-12 rounded-3xl border border-border/50 shadow-card">
-            <div className="flex flex-col md:flex-row gap-8 items-center">
-              {/* Author Image */}
+          <div className="bg-gradient-card p-6 md:p-12 rounded-3xl border border-border/50 shadow-card">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
               <div className="flex-shrink-0">
                 <div className="relative">
-                  <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary/40 shadow-gold">
-                    <img 
-                      src={marinaImage} 
-                      alt="Marina - Criadora do Método Cleópatra" 
+                  <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary/40 shadow-silver">
+                    <img
+                      src={marinaImage}
+                      alt="Marina - Criadora do Protocolo Ártemis"
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </div>
-                  <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-secondary px-4 py-2 rounded-full shadow-gold">
-                    <p className="text-secondary-foreground font-semibold text-sm whitespace-nowrap">
+                  <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-secondary px-4 py-2 rounded-full shadow-silver">
+                    <p className="text-secondary-foreground font-semibold text-xs md:text-sm whitespace-nowrap">
                       Marina • Facilitadora
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Author Bio */}
               <div className="flex-1 space-y-4 text-center md:text-left">
-                <p className="text-muted-foreground leading-relaxed">
-                  Sou <strong className="text-foreground">Marina</strong>, facilitadora e criadora do <span className="text-secondary">Método Cleópatra</span> e sei exatamente o que você está sentindo. Pois já passei pelo mesmo que você.
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Sou <strong className="text-foreground">Marina</strong>, facilitadora e criadora do <span className="text-secondary">Protocolo Ártemis</span>. Sei exatamente o que você está sentindo, pois já passei pelo mesmo.
                 </p>
-
-                <p className="text-muted-foreground leading-relaxed">
-                  Quando meu ex rompeu comigo, entrei em colapso. Eu era a namorada perfeita. Cuidava dele, cozinhava, fazia tudo o que eu podia para vê-lo feliz e completo, e mesmo assim, ele terminou tudo, assim do nada. Meu mundo ruiu, meu chão desabou.
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Quando meu ex rompeu comigo após 4 anos, entrei em colapso. Fui viajar para me encontrar e conheci <strong className="text-foreground">Dra. Sophia Miendez</strong>, que me ensinou os princípios que hoje formam o Protocolo Ártemis.
                 </p>
-
-                <p className="text-muted-foreground leading-relaxed">
-                  Fui viajar para me encontrar, até que conheci <strong className="text-foreground">Dra. Sophia Miendez</strong>, que me ensinou o que chamo hoje de Método Cleópatra. Aos primeiros 7 dias, notei como minha capacidade em atrair olhares masculinos, havia voltado novamente.
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Hoje, 18 meses depois, já ajudei <strong className="text-secondary">3.847 mulheres</strong> a fazerem a mesma transformação.
                 </p>
 
                 <div className="p-4 bg-secondary/10 border border-secondary/30 rounded-xl mt-6">
-                  <p className="text-foreground font-medium italic">
-                    "Minha missão: provar que você pode ser uma mulher, forte, autoconfiante, com uma energia magnética fora da curva, para atrair Homens que te valorizem de verdade."
+                  <p className="text-foreground font-medium italic text-sm md:text-base">
+                    "Minha missão: provar que você pode ser uma mulher forte, autoconfiante, com energia magnética fora da curva, para atrair homens que te valorizem de verdade."
                   </p>
                 </div>
 
-                <p className="text-xl text-secondary font-semibold mt-4">
+                <p className="text-lg md:text-xl text-secondary font-semibold mt-4">
                   💫 Se eu consegui, você também consegue! ✨
                 </p>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* P.S. Section */}
+        <div className="max-w-3xl mx-auto mt-10 space-y-4">
+          <div className="p-4 md:p-5 bg-card/60 border border-border/30 rounded-xl">
+            <p className="text-muted-foreground text-xs md:text-sm">
+              <strong className="text-foreground">P.S.:</strong> Enquanto você estava lendo esta página, <strong className="text-secondary">3 mulheres</strong> já garantiram sua vaga. Não deixe para "pensar depois" — depois pode ser tarde demais.
+            </p>
+          </div>
+          <div className="p-4 md:p-5 bg-card/60 border border-border/30 rounded-xl">
+            <p className="text-muted-foreground text-xs md:text-sm">
+              <strong className="text-foreground">P.P.S.:</strong> Lembra da pergunta que Dra. Sophia me fez? "Você acha que Cleópatra chorava no banheiro?" <strong className="text-secondary">NÃO.</strong> E nem você vai precisar chorar nunca mais. Sua transformação começa AGORA.
+            </p>
+          </div>
+        </div>
+
+        {/* Final CTA */}
+        <div className="text-center mt-10 px-2">
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
+            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+              🔥 GARANTIR MINHA VAGA AGORA
+            </a>
+          </Button>
         </div>
       </div>
     </section>
