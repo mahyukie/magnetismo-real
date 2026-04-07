@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Clock, Users } from "lucide-react";
-import logoCleopatra from "@/assets/logo-cleopatra.jpeg";
-import heroImage from "@/assets/hero-cleopatra.jpg";
+import logoArtemis from "@/assets/logo-artemis.png";
+import heroImage from "@/assets/hero-artemis.jpg";
 import { useEffect, useRef } from "react";
 
 interface HeroSectionProps {
@@ -29,8 +29,8 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
-          alt="Cleópatra" 
-          className="w-full h-full object-cover opacity-40"
+          alt="Protocolo Ártemis" 
+          className="w-full h-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
       </div>
@@ -39,15 +39,15 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
         {/* Logo */}
         <div className="flex justify-center mb-6 md:mb-8">
           <img 
-            src={logoCleopatra} 
-            alt="Método Cleópatra 2.0" 
-            className="h-16 md:h-28 object-contain"
+            src={logoArtemis} 
+            alt="Protocolo Ártemis" 
+            className="h-20 md:h-32 object-contain"
           />
         </div>
 
         {/* VSL Embed */}
         <div className="max-w-4xl mx-auto mb-6 md:mb-8">
-          <div className="relative aspect-video bg-card rounded-xl border-2 border-secondary/30 shadow-gold overflow-hidden">
+          <div className="relative aspect-video bg-card rounded-xl border-2 border-secondary/30 shadow-silver overflow-hidden">
             <iframe
               src="https://player-vz-3ebd9223-994.tv.pandavideo.com.br/embed/?v=ca056d71-829e-4229-bcd3-4e7c3c0c0626"
               className="absolute inset-0 w-full h-full"
@@ -59,7 +59,7 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
           {/* Urgency Banner */}
           <div className="mt-3 md:mt-4 p-3 md:p-4 bg-destructive/20 border border-destructive/40 rounded-lg">
             <p className="text-center text-foreground font-semibold text-xs md:text-base leading-snug">
-              ⚠️ <strong>AVISO IMPORTANTE:</strong> você não verá esse vídeo novamente, ele ficará no ar apenas até as <strong className="text-secondary">23:59hs de HOJE!</strong>
+              ⚠️ <strong>AVISO:</strong> Este vídeo ficará disponível apenas por <strong className="text-secondary">tempo limitado.</strong> Assista agora antes que saia do ar!
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
         <div className="flex justify-center mb-4 md:mb-6 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 QUERO DESPERTAR MINHA CLEÓPATRA INTERIOR AGORA
+              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA
             </a>
           </Button>
         </div>
@@ -85,17 +85,17 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
           </div>
           <div className="flex items-center gap-1.5 md:gap-2">
             <Users className="w-3.5 h-3.5 md:w-4 md:h-4 text-secondary" />
-            <span>+3.000 Mulheres Transformadas</span>
+            <span>+3.847 Mulheres Transformadas</span>
           </div>
         </div>
 
         {/* Subheadline */}
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-serif text-xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 md:mb-6">
-            Desperte O <span className="text-gradient-gold">Poder Ancestral Cleópatra</span> Em 21 Dias e Torne-se Tão <em>Magnética</em> Que Ele <strong>Implorará Pelo Seu Perdão</strong>
+            Como 3.847 Mulheres Transformaram a Dor do Término na <span className="text-gradient-silver">Arma Mais Poderosa</span> Para Conquistar Homens de Alto Valor
           </h1>
-          <p className="text-base md:text-xl text-muted-foreground leading-relaxed">
-            Enquanto É <strong className="text-foreground">VOCÊ</strong> Que Terá o Poder de Escolha. A Fila Andou? Ou Voltará Com Seu Ex? <span className="text-secondary font-semibold">Depois de Conhecer o Método Cleópatra, é Você Que Decidirá!</span>
+          <p className="text-sm md:text-lg text-muted-foreground leading-relaxed italic">
+            Baseado em estudos de psicologia comportamental e validado por mais de 15.000 horas de aplicação prática, este método revela como transformar rejeição em magnetismo irresistível — <span className="text-secondary font-semibold">mesmo que você se sinta "invisível" agora</span>
           </p>
         </div>
       </div>
