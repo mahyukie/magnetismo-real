@@ -7,14 +7,12 @@ export const StorySection = () => {
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
-        {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-10">
           <h2 className="font-serif text-2xl md:text-4xl font-bold leading-tight">
             Meu Nome é Marina e Eu Era Você <span className="text-gradient-silver">Há 18 Meses Atrás...</span>
           </h2>
         </div>
 
-        {/* Story Content */}
         <div className="max-w-3xl mx-auto space-y-5 md:space-y-6 text-sm md:text-lg leading-relaxed">
           <p className="text-muted-foreground">
             Em outubro de 2022, eu estava exatamente onde você está agora. Deitada no chão do banheiro, às 3h da manhã, chorando porque tinha visto uma foto dele com outra mulher no Instagram.
@@ -49,7 +47,6 @@ export const StorySection = () => {
             </p>
           </div>
 
-          {/* Results Timeline */}
           <h3 className="font-serif text-xl md:text-2xl font-bold text-center text-foreground pt-4">
             A Descoberta: O <span className="text-gradient-silver">"Efeito Inversão Psicológica"</span>
           </h3>
@@ -87,7 +84,6 @@ export const StorySection = () => {
           </p>
         </div>
 
-        {/* CTA */}
         <div className="text-center mt-10 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">

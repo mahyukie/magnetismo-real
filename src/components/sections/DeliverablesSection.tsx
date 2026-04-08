@@ -52,12 +52,11 @@ export const DeliverablesSection = () => {
         <div className="text-center mb-10 md:mb-12">
           <span className="text-secondary font-semibold text-sm uppercase tracking-wider">O Que Você Vai Receber</span>
           <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2">
-            Dentro do <span className="text-gradient-silver">Protocolo Ártemis</span>
+            Dentro do <span className="text-gradient-silver">Método Aurora</span>
           </h2>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
-          {/* Modules List */}
           <div className="space-y-6">
             {modules.map((module, moduleIndex) => (
               <div key={moduleIndex} className="bg-card/30 rounded-2xl border border-border/30 overflow-hidden">
@@ -88,12 +87,11 @@ export const DeliverablesSection = () => {
             ))}
           </div>
 
-          {/* Mockup Image */}
           <div className="relative flex flex-col items-center lg:sticky lg:top-24">
             <div className="absolute inset-0 bg-secondary/20 blur-3xl rounded-full" />
             <img
               src={mockupImage}
-              alt="Protocolo Ártemis - Acesse em qualquer dispositivo"
+              alt="Método Aurora - Acesse em qualquer dispositivo"
               className="relative z-10 w-full max-w-lg mx-auto rounded-2xl shadow-silver"
               loading="lazy"
             />

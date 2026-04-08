@@ -1,5 +1,5 @@
 import marinaImage from "@/assets/marina-author.jpg";
-import logoArtemis from "@/assets/logo-artemis.png";
+import logoAurora from "@/assets/logo-aurora.png";
 import { Button } from "@/components/ui/button";
 
 export const AuthorSection = () => {
@@ -8,8 +8,8 @@ export const AuthorSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
           <img
-            src={logoArtemis}
-            alt="Protocolo Ártemis"
+            src={logoAurora}
+            alt="Método Aurora"
             className="h-14 md:h-16 mx-auto mb-6"
             loading="lazy"
           />
@@ -26,7 +26,7 @@ export const AuthorSection = () => {
                   <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary/40 shadow-silver">
                     <img
                       src={marinaImage}
-                      alt="Marina - Criadora do Protocolo Ártemis"
+                      alt="Marina - Criadora do Método Aurora"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -41,10 +41,10 @@ export const AuthorSection = () => {
 
               <div className="flex-1 space-y-4 text-center md:text-left">
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Sou <strong className="text-foreground">Marina</strong>, facilitadora e criadora do <span className="text-secondary">Protocolo Ártemis</span>. Sei exatamente o que você está sentindo, pois já passei pelo mesmo.
+                  Sou <strong className="text-foreground">Marina</strong>, facilitadora e criadora do <span className="text-secondary">Método Aurora</span>. Sei exatamente o que você está sentindo, pois já passei pelo mesmo.
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Quando meu ex rompeu comigo após 4 anos, entrei em colapso. Fui viajar para me encontrar e conheci <strong className="text-foreground">Dra. Sophia Miendez</strong>, que me ensinou os princípios que hoje formam o Protocolo Ártemis.
+                  Quando meu ex rompeu comigo após 4 anos, entrei em colapso. Fui viajar para me encontrar e conheci <strong className="text-foreground">Dra. Sophia Miendez</strong>, que me ensinou os princípios que hoje formam o Método Aurora.
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                   Hoje, 18 meses depois, já ajudei <strong className="text-secondary">3.847 mulheres</strong> a fazerem a mesma transformação.
@@ -64,7 +64,6 @@ export const AuthorSection = () => {
           </div>
         </div>
 
-        {/* P.S. Section */}
         <div className="max-w-3xl mx-auto mt-10 space-y-4">
           <div className="p-4 md:p-5 bg-card/60 border border-border/30 rounded-xl">
             <p className="text-muted-foreground text-xs md:text-sm">
@@ -78,7 +77,6 @@ export const AuthorSection = () => {
           </div>
         </div>
 
-        {/* Final CTA */}
         <div className="text-center mt-10 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">

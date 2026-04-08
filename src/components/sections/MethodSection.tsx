@@ -32,18 +32,16 @@ export const MethodSection = () => {
   return (
     <section className="py-10 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
         <div className="text-center mb-6 md:mb-10">
           <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Apresentando</span>
           <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2">
-            PROTOCOLO <span className="text-gradient-silver">ÁRTEMIS</span>
+            MÉTODO <span className="text-gradient-silver">AURORA</span>
           </h2>
           <p className="text-muted-foreground mt-3 text-sm md:text-lg max-w-2xl mx-auto italic">
             O Primeiro Sistema de Reversão Psicológica Para Transformar Rejeição em Magnetismo Irresistível
           </p>
         </div>
 
-        {/* What it does */}
         <div className="max-w-3xl mx-auto mb-10 md:mb-16">
           <div className="p-5 md:p-6 bg-gradient-card border border-border/50 rounded-2xl">
             <p className="text-foreground font-medium text-sm md:text-base mb-4">
@@ -61,7 +59,6 @@ export const MethodSection = () => {
           </div>
         </div>
 
-        {/* 3 Triggers Header */}
         <div className="text-center mb-10">
           <h3 className="font-serif text-xl md:text-3xl font-bold">
             Os 3 Gatilhos Neurológicos Que Fazem <br className="hidden md:block"/>
@@ -69,7 +66,6 @@ export const MethodSection = () => {
           </h3>
         </div>
 
-        {/* Triggers Grid */}
         <div className="grid md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto mb-10 md:mb-16">
           {triggers.map((trigger, index) => (
             <div key={index} className="relative group">
@@ -90,7 +86,6 @@ export const MethodSection = () => {
           ))}
         </div>
 
-        {/* Mini Testimonials */}
         <div className="max-w-4xl mx-auto">
           <p className="text-center text-foreground font-semibold text-base md:text-lg mb-6">
             Aqui estão apenas ALGUNS resultados das nossas alunas:
@@ -106,7 +101,6 @@ export const MethodSection = () => {
           </div>
         </div>
 
-        {/* CTA */}
         <div className="text-center mt-10 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
