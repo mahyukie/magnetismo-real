@@ -25,7 +25,7 @@ export const FAQSection = () => {
     },
     {
       question: "Em quanto tempo vejo os primeiros resultados?",
-      answer: "Os primeiros sinais de transformação podem aparecer em 48-72 horas, com resultados completos relatados em 21 dias, aplicando exatamente como ensinado no Protocolo Ártemis."
+      answer: "Os primeiros sinais de transformação podem aparecer em 48-72 horas, com resultados completos relatados em 21 dias, aplicando exatamente como ensinado no Método Aurora."
     },
     {
       question: "Como posso pagar?",

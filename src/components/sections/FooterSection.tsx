@@ -1,4 +1,4 @@
-import logoArtemis from "@/assets/logo-artemis.png";
+import logoAurora from "@/assets/logo-aurora.png";
 
 export const FooterSection = () => {
   return (
@@ -6,8 +6,8 @@ export const FooterSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-6 md:mb-8">
           <img
-            src={logoArtemis}
-            alt="Protocolo Ártemis"
+            src={logoAurora}
+            alt="Método Aurora"
             className="h-10 md:h-12 opacity-70"
             loading="lazy"
           />
@@ -41,7 +41,7 @@ export const FooterSection = () => {
 
         <div className="text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Protocolo Ártemis. Todos os direitos reservados.
+            © {new Date().getFullYear()} Método Aurora. Todos os direitos reservados.
           </p>
         </div>
       </div>
