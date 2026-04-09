@@ -105,13 +105,9 @@ export const DeliverablesSection = () => {
                 📱 Celular • 💻 Computador • 📲 Tablet
               </p>
               <div className="mt-3 pt-3 border-t border-border/30">
-                <p className="text-sm text-muted-foreground">
-                  De <span className="line-through">R$1.997,00</span>
+                <p className="text-sm font-semibold text-secondary">
+                  Oferta por tempo limitado
                 </p>
-                <p className="text-2xl font-bold text-secondary">
-                  Por apenas R$197,00
-                </p>
-                <p className="text-xs text-muted-foreground">ou 12x de R$19,70</p>
               </div>
             </div>
           </div>
