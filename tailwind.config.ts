@@ -48,14 +48,18 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         aurora: {
-          DEFAULT: "hsl(var(--aurora-dark))",
-          deep: "hsl(var(--aurora-deep))",
-          light: "hsl(var(--aurora-light))",
+          warm: "hsl(var(--aurora-warm))",
+          blush: "hsl(var(--aurora-blush))",
+          cream: "hsl(var(--aurora-cream))",
         },
         rosegold: {
           DEFAULT: "hsl(var(--rosegold))",
           dark: "hsl(var(--rosegold-dark))",
           light: "hsl(var(--rosegold-light))",
+        },
+        rose: {
+          soft: "hsl(var(--rose-soft))",
+          petal: "hsl(var(--rose-petal))",
         },
         amber: "hsl(var(--amber))",
         sidebar: {
@@ -75,8 +79,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        serif: ['Playfair Display', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['Lato', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
@@ -88,8 +92,8 @@ export default {
           to: { height: "0" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(25 70% 60% / 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsl(25 70% 60% / 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 15px hsl(345 35% 55% / 0.25)" },
+          "50%": { boxShadow: "0 0 30px hsl(345 35% 55% / 0.4)" },
         },
       },
       animation: {
