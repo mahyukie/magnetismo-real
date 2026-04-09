@@ -62,7 +62,7 @@
 
     /* Sombras suaves */
     --shadow-rosegold: 0 4px 20px hsl(345 35% 55% / 0.15);
-    --shadow-glow: 0 8px 40px hsl(345 35% 55% / 0.2);
+    --shadow-glow: 0 8px 40px hsl(345 50% 45% / 0.35);
     --shadow-card: 0 4px 24px -6px hsl(20 20% 50% / 0.1);
 
     /* Animações */

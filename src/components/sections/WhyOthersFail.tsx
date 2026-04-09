@@ -37,7 +37,7 @@ export const WhyOthersFail = () => {
         <div className="text-center mt-10 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 GARANTIR MINHA VAGA AGORA — R$197
+              ✨ CLIQUE AQUI PARA ENTRAR PARA O MÉTODO AURORA
             </a>
           </Button>
           <p className="text-muted-foreground mt-3 text-xs md:text-sm">
