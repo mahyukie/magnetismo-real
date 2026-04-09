@@ -31,7 +31,7 @@ export const FloatingCTA = () => {
           </button>
           <div className="text-center sm:text-left">
             <p className="text-foreground font-semibold text-xs md:text-base">
-              🔥 Últimas vagas! De <span className="line-through text-muted-foreground">R$1.997</span> por apenas <span className="text-secondary font-bold">R$197</span>
+              🔥 Últimas vagas disponíveis! Garanta seu acesso agora
             </p>
             <p className="text-muted-foreground text-xs">
               Garantia de 7 dias • Acesso imediato
