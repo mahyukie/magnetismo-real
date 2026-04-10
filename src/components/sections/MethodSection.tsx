@@ -13,54 +13,58 @@ export const MethodSection = () => {
       icon: Zap,
       title: "GATILHO 2: Desafio Cognitivo",
       description: "Quando você se torna \"ligeiramente inalcançável\", você ativa o centro de prazer cerebral masculino — o mesmo que ativa durante a caça.",
-      result: "Você se torna irresistível para ele"
+      result: "Ele sente necessidade compulsiva de te conquistar"
     },
     {
       icon: Eye,
-      title: "GATILHO 3: Mistério Emocional",
-      description: "Quando você desenvolve uma \"vida interna rica\", você se torna infinitamente mais interessante do que 97% das outras mulheres.",
-      result: "Ele quer DESCOBRIR quem é essa \"nova versão\" de você"
+      title: "GATILHO 3: Investimento Crescente",
+      description: "Quando ele percebe que está investindo mais do que recebendo, o Efeito IKEA é ativado — quanto mais investe, mais valoriza.",
+      result: "Ele se torna emocionalmente dependente de você"
     }
   ];
 
   const miniTestimonials = [
-    { name: "Carol, 34 anos", quote: "Em 16 dias meu ex que havia me bloqueado mandou mensagem dizendo que não conseguia parar de pensar em mim" },
-    { name: "Juliana, 29 anos", quote: "Hoje tenho 4 homens incríveis interessados em mim e finalmente EU é que escolho aquele que REALMENTE me completa." },
-    { name: "Patricia, 58 anos", quote: "Achei que aos 58 já era tarde demais. Hoje estou noiva de um homem 12 anos mais novo que me trata como rainha" },
+    { name: "Carolina, 34", quote: "Em 11 dias ele voltou pedindo outra chance. Mas agora EU que não sei se quero ele..." },
+    { name: "Mariana, 28", quote: "Ele bloqueou todo mundo menos eu. Agora me liga às 2 da manhã dizendo que errou..." },
+    { name: "Patrícia, 45", quote: "Achei que com 45 anos eu não teria mais chance. Em 3 semanas tinha 3 homens me cortejando..." }
   ];
 
   return (
-    <section className="py-10 md:py-24 bg-gradient-section-dark text-white">
-      <div className="container mx-auto px-4">
+    <section className="py-10 md:py-24 bg-gradient-section-dark relative overflow-hidden">
+      {/* Decorative orbs */}
+      <div className="absolute top-20 left-10 w-64 h-64 bg-rose-500/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl" />
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-6 md:mb-10">
-          <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Apresentando</span>
-          <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2">
+          <span className="text-rose-300 font-semibold text-sm uppercase tracking-wider">Apresentando</span>
+          <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2 text-white">
             MÉTODO <span className="text-gradient-silver">AURORA</span>
           </h2>
-          <p className="text-muted-foreground mt-3 text-sm md:text-lg max-w-2xl mx-auto italic">
+          <p className="text-rose-200/70 mt-3 text-sm md:text-lg max-w-2xl mx-auto italic">
             O Primeiro Sistema de Reversão Psicológica Para Transformar Rejeição em Magnetismo Irresistível
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto mb-10 md:mb-16">
-          <div className="p-5 md:p-6 bg-gradient-card border border-border/50 rounded-2xl">
-            <p className="text-foreground font-medium text-sm md:text-base mb-4">
+          <div className="p-5 md:p-6 bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl">
+            <p className="text-white font-medium text-sm md:text-base mb-4">
               <strong>Não importa:</strong>
             </p>
-            <ul className="space-y-2 text-muted-foreground text-sm md:text-base">
+            <ul className="space-y-2 text-rose-100/80 text-sm md:text-base">
               <li>• Sua idade (funciona MUITO bem dos 20 aos 65 anos)</li>
               <li>• Há quanto tempo foi o término</li>
               <li>• Se ele já está com outra</li>
               <li>• Se você se sente "sem esperança"</li>
             </ul>
-            <p className="text-foreground font-semibold mt-4 text-sm md:text-base">
-              Você para de ser a "rejeitada" e se torna a <span className="text-secondary">"desejada"</span>. De forma 100% AUTÊNTICA.
+            <p className="text-white font-semibold mt-4 text-sm md:text-base">
+              Você para de ser a "rejeitada" e se torna a <span className="text-rose-300">"desejada"</span>. De forma 100% AUTÊNTICA.
             </p>
           </div>
         </div>
 
         <div className="text-center mb-10">
-          <h3 className="font-serif text-xl md:text-3xl font-bold">
+          <h3 className="font-serif text-xl md:text-3xl font-bold text-white">
             Os 3 Gatilhos Neurológicos Que Fazem <br className="hidden md:block"/>
             <span className="text-gradient-silver">Homens Te Perseguirem</span>
           </h3>
@@ -69,17 +73,17 @@ export const MethodSection = () => {
         <div className="grid md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto mb-10 md:mb-16">
           {triggers.map((trigger, index) => (
             <div key={index} className="relative group">
-              <div className="absolute -top-4 -left-4 w-10 h-10 bg-secondary rounded-full flex items-center justify-center font-bold text-secondary-foreground shadow-silver z-10">
+              <div className="absolute -top-4 -left-4 w-10 h-10 bg-secondary rounded-full flex items-center justify-center font-bold text-white shadow-silver z-10">
                 {index + 1}
               </div>
-              <div className="h-full bg-gradient-card p-6 md:p-8 rounded-2xl border border-border/50 shadow-card group-hover:border-secondary/50 group-hover:shadow-silver transition-all duration-300">
-                <div className="w-14 h-14 bg-primary/30 rounded-xl flex items-center justify-center mb-4 group-hover:bg-secondary/20 transition-colors">
-                  <trigger.icon className="w-7 h-7 text-secondary" />
+              <div className="h-full bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-white/15 group-hover:border-rose-400/40 group-hover:shadow-glow transition-all duration-300">
+                <div className="w-14 h-14 bg-rose-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-rose-500/30 transition-colors">
+                  <trigger.icon className="w-7 h-7 text-rose-300" />
                 </div>
-                <h4 className="font-serif text-lg font-bold mb-3 text-foreground">{trigger.title}</h4>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">{trigger.description}</p>
-                <div className="p-3 bg-secondary/10 rounded-lg border border-secondary/20">
-                  <p className="text-secondary font-semibold text-sm italic">Resultado: {trigger.result}</p>
+                <h4 className="font-serif text-lg font-bold mb-3 text-white">{trigger.title}</h4>
+                <p className="text-rose-100/70 text-sm leading-relaxed mb-4">{trigger.description}</p>
+                <div className="p-3 bg-rose-500/15 rounded-lg border border-rose-400/20">
+                  <p className="text-rose-300 font-semibold text-sm italic">Resultado: {trigger.result}</p>
                 </div>
               </div>
             </div>
@@ -87,14 +91,14 @@ export const MethodSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <p className="text-center text-foreground font-semibold text-base md:text-lg mb-6">
+          <p className="text-center text-white font-semibold text-base md:text-lg mb-6">
             Aqui estão apenas ALGUNS resultados das nossas alunas:
           </p>
           <div className="space-y-4">
             {miniTestimonials.map((t, i) => (
-              <div key={i} className="p-4 bg-card/60 border border-border/30 rounded-xl">
-                <p className="text-muted-foreground italic text-sm md:text-base">
-                  📍 <strong className="text-foreground">{t.name}:</strong> <em>"{t.quote}"</em>
+              <div key={i} className="p-4 bg-white/8 border border-white/10 rounded-xl">
+                <p className="text-rose-100/80 italic text-sm md:text-base">
+                  📍 <strong className="text-white">{t.name}:</strong> <em>"{t.quote}"</em>
                 </p>
               </div>
             ))}
