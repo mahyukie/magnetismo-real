@@ -30,7 +30,7 @@ export const MethodSection = () => {
   ];
 
   return (
-    <section className="py-10 md:py-24 bg-background">
+    <section className="py-10 md:py-24 bg-gradient-section-dark text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-6 md:mb-10">
           <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Apresentando</span>

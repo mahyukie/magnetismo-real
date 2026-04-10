@@ -35,7 +35,7 @@ export const BonusSection = () => {
   ];
 
   return (
-    <section className="py-10 md:py-24 bg-background">
+    <section className="py-10 md:py-24 bg-gradient-section-warm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
           <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Apenas Para as Primeiras 25 Mulheres</span>
