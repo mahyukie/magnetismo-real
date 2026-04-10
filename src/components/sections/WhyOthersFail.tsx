@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 
 export const WhyOthersFail = () => {
   return (
-    <section className="py-10 md:py-24 bg-gradient-hero">
+    <section className="py-10 md:py-24 bg-gradient-section-blush relative overflow-hidden">
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-primary/8 rounded-full blur-3xl" />
       <div className="container mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
           <div className="inline-flex items-center gap-2 bg-destructive/20 text-destructive px-4 py-2 rounded-full mb-4">

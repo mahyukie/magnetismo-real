@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const BenefitsSection = () => {
   return (
-    <section className="py-10 md:py-24 bg-gradient-hero relative overflow-hidden">
+    <section className="py-10 md:py-24 bg-gradient-section-warm relative overflow-hidden">
       <div className="absolute top-10 right-10 text-secondary/20 animate-pulse">
         <Star className="w-12 h-12 md:w-16 md:h-16" fill="currentColor" />
       </div>
