@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const GuaranteeSection = () => {
   return (
-    <section className="py-10 md:py-24 bg-gradient-hero">
+    <section className="py-10 md:py-24 bg-gradient-section-blush relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
           <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Sua Segurança</span>
