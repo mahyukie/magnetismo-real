@@ -2,17 +2,17 @@ import { Button } from "@/components/ui/button";
 
 export const PainPointsSection = () => {
   const painChecklist = [
-    "Acorda no meio da madrugada pensando nele",
-    "Verifica compulsivamente as redes sociais dele",
-    "Se pergunta \"o que ela tem que eu não tenho?\"",
-    "Sente que perdeu toda sua capacidade de atrair homens",
-    "Tem medo de nunca mais ser desejada como antes",
+    "Acorda no meio da madrugada pensando nele, inclusive ainda sonha com ele...💔",
+    "Verifica compulsivamente as redes sociais, pra saber se ele curtiu algum post seu ou se ele já está saindo com outra pessoa...💔",
+    "Se ele já estiver saindo com outra pessoa, se pergunta \"o que ela tem que eu não tenho?\"",
+    "Sente que perdeu toda sua capacidade de atrair outros homens, sentindo isso afetar sua auto estima..",
+    "Se fechou para o Amor, e acabou desenvolvendo um trauma de sofrer assim novamente, e tem medo de nunca mais ser desejada como antes💔",
   ];
 
   const failedAttempts = [
-    "Fingiu que estava bem nas redes sociais (mas chorou no banho)...",
-    "Saiu com outros homens para tentar esquecer (mas só se sentiu pior)...",
-    "Seguiu todos os conselhos das amigas (que só te confundiram mais)...",
+    "Fingiu que estava bem pessoalmente e nas redes sociais (mas chorava no banho)..😪.",
+    "Saiu com outros homens para tentar esquecer (mas só se sentiu pior)..😪.",
+    "Seguiu todos os conselhos das amigas (que só te confundiram mais)..😪.",
   ];
 
   return (
@@ -26,9 +26,9 @@ export const PainPointsSection = () => {
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
             Sei que você está aqui porque algo dentro de você <strong className="text-foreground">QUEBROU</strong> quando ele disse aquelas palavras que mudaram tudo.
           </p>
-          <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            E sei também que você já tentou de tudo para parar essa dor que corrói por dentro:
-          </p>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              E sei também que você já tentou de tudo para PARAR essa DOR que corrói por dentro:
+            </p>
         </div>
 
         {/* Failed attempts */}
@@ -50,14 +50,14 @@ export const PainPointsSection = () => {
             {painChecklist.map((item, index) => (
               <div key={index} className="flex items-start gap-3 bg-primary/10 p-4 rounded-lg border border-primary/20">
                 <span className="text-destructive text-lg flex-shrink-0">✗</span>
-                <p className="text-foreground text-sm md:text-base">{item}</p>
+                <p className="text-foreground text-sm md:text-base">{index === 2 || index === 3 || index === 4 ? item : item + "💔"}</p>
               </div>
             ))}
           </div>
 
           <div className="p-6 bg-gradient-card border-2 border-secondary/30 rounded-2xl shadow-silver text-center my-8">
             <p className="text-foreground font-semibold text-base md:text-lg">
-              Se você assentiu com a cabeça para pelo menos 3 dessas afirmações, então <span className="text-secondary">você está no lugar certo.</span>
+              Se você assentiu com a cabeça para pelo menos 3 dessas afirmações, então você está no lugar certo!
             </p>
             <p className="text-muted-foreground mt-3 text-sm md:text-base">
               Porque o que vou compartilhar com você nas próximas linhas vai <strong className="text-foreground">mudar completamente</strong> a forma como você se vê e como os homens te veem.

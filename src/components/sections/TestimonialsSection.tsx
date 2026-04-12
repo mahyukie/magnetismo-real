@@ -11,12 +11,12 @@ import testimonial4 from "@/assets/testimonial-4.jpg";
 const testimonials = [
   {
     name: "Fernanda M.",
-    age: 31,
+    age: 36,
     location: "Publicitária",
     image: testimonial1,
     rating: 5,
-    result: "Ex voltou em 7 dias",
-    quote: "Em APENAS 7 dias aplicando o método, meu ex (que havia me bloqueado há 3 meses) apareceu na porta da minha casa com flores dizendo que não conseguia mais viver sem mim. Eu nem sabia se queria ele de volta, mas ver o PODER que eu tinha desenvolvido foi incrível. Hoje estou com alguém 10x melhor!",
+    result: "Ex voltou em 10 dias",
+    quote: "Em APENAS 10 dias aplicando o Método Aurora, meu ex (que havia me bloqueado há 3 meses) apareceu na porta da minha casa com flores dizendo que não conseguia mais viver sem mim. Naquele momento, eu nem sabia se queria ele de volta, mas ver o PODER que eu tinha desenvolvido foi incrível. Hoje estou com alguém 10x melhor!\"💃",
     highlight: "Desenvolveu poder de escolha total",
     verified: true
   },
@@ -27,7 +27,7 @@ const testimonials = [
     image: testimonial2,
     rating: 5,
     result: "Novo amor aos 49",
-    quote: "Eu pensava que aos 49 anos e após 3 filhos eu jamais seria 'desejada' novamente. O método me provou que estava COMPLETAMENTE errada. Hoje namoro um empresário de 40 anos que me trata como a mulher mais especial do mundo.",
+    quote: "Eu pensava que aos 49 anos e após 3 filhos eu jamais seria 'desejada' novamente. O Método Aurora me provou que estava COMPLETAMENTE errada. Hoje estou noiva de um empresário de 41 anos que me trata como a mulher mais especial do mundo.",
     highlight: "Provou que idade não importa",
     verified: true
   },
@@ -38,18 +38,18 @@ const testimonials = [
     image: testimonial3,
     rating: 5,
     result: "3 pretendentes em 2 semanas",
-    quote: "Apliquei exatamente o que você ensinou e em 2 semanas tinha 3 homens incríveis interessados em mim. Pela primeira vez na vida EU é que estava escolhendo. Sensação indescritível de poder!",
+    quote: "Apliquei exatamente o que vocês ensinaram e em 2 semanas tinha 3 homens de alto valor interessados em mim. Pela primeira vez na vida EU é que estava escolhendo. Não precisava mais implorar por atenção, carinho, ou afeto... Agradeço mil vezes por ter encontrado vcs... kkkk Obrigada a toda equipe do Método Aurora. ",
     highlight: "Poder de escolha pela primeira vez",
     verified: true
   },
   {
     name: "Regina T.",
-    age: 53,
+    age: 55,
     location: "Curitiba, PR",
     image: testimonial4,
     rating: 5,
-    result: "Noiva de homem mais novo",
-    quote: "Achava que minha idade era um problema. MENTIRA! O método me mostrou que maturidade é PODER. Hoje namoro um homem 8 anos mais novo que me trata como uma rainha.",
+    result: "Encontrou o amor na Maturidade",
+    quote: "Achava que minha idade era um problema. MENTIRA! O método AURORA me mostrou que maturidade é PODER. Hoje namoro um homem 12 anos mais novo! E posso dizer com muita autoridade, nunca fui tão feliz! Nos divertimos muito juntos, viajamos, namoramos, enfim... só palavras de agradecimento a vcs meninas!! Me deram esperanças quando eu mesma já não tinha mais de encontrar o Amor... O meu MUITISSIMO OBRIGADA!! ",
     highlight: "Maturidade como superpoder",
     verified: true
   }
@@ -57,7 +57,7 @@ const testimonials = [
 
 const stats = [
   { number: "3.847+", label: "Mulheres Transformadas" },
-  { number: "92%", label: "Taxa de Satisfação" },
+  { number: "96%", label: "Taxa de Satisfação" },
   { number: "21", label: "Dias Para Resultados" },
   { number: "4.9", label: "Avaliação Média", icon: Star }
 ];
@@ -73,7 +73,7 @@ export const TestimonialsSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-10 md:mb-12">
           <span className="inline-block px-4 py-2 bg-secondary/20 text-secondary rounded-full text-sm font-semibold mb-4">
-            ⭐ RESULTADOS REAIS
+            ⭐⭐⭐⭐⭐ RESULTADOS REAIS
           </span>
           <h2 className="text-2xl md:text-5xl font-bold text-foreground mb-4">
             O Que Nossas Alunas<br />

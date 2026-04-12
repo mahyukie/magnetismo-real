@@ -5,7 +5,7 @@ export const BonusSection = () => {
     {
       icon: Smartphone,
       title: "Guia de Transformação Digital",
-      originalPrice: "R$197",
+      originalPrice: "R$297",
       items: [
         "Scripts específicos para redes sociais que geram curiosidade masculina",
         "Como se tornar irresistível no WhatsApp sem parecer interesseira",
@@ -15,7 +15,7 @@ export const BonusSection = () => {
     {
       icon: Brain,
       title: "Manual de Inteligência Emocional Feminina",
-      originalPrice: "R$147",
+      originalPrice: "R$467",
       items: [
         "Como nunca mais ser pega de surpresa por homens emocionalmente indisponíveis",
         "Técnicas para ler sinais masculinos com 99% de precisão",
@@ -25,7 +25,7 @@ export const BonusSection = () => {
     {
       icon: MessageCircle,
       title: "Guia de Comunicação Feminina Avançada",
-      originalPrice: "R$97",
+      originalPrice: "R$697",
       items: [
         "Scripts testados para conversas que despertam interesse masculino",
         "Técnicas de comunicação para cada situação específica",
@@ -85,7 +85,7 @@ export const BonusSection = () => {
 
         <div className="max-w-3xl mx-auto mt-10 p-5 md:p-6 bg-secondary/10 border border-secondary/30 rounded-xl text-center">
           <p className="text-foreground font-bold text-sm md:text-lg">
-            🎁 VALOR TOTAL DOS BÔNUS: <span className="text-secondary text-xl md:text-2xl">R$441,00</span>
+            🎁 VALOR TOTAL DOS BÔNUS: <span className="text-secondary text-xl md:text-2xl">R$1.461,00</span>
           </p>
           <p className="text-muted-foreground text-xs md:text-sm mt-1">
             Inclusos GRATUITAMENTE na sua compra hoje

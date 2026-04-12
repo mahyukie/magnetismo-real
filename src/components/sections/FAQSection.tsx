@@ -37,7 +37,7 @@ export const FAQSection = () => {
     <section className="py-10 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
-          <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Perguntas Frequentes</span>
+          <span className="text-secondary font-semibold text-sm uppercase tracking-wider">COM DÚVIDAS? 🤔AQUI ESTÃO AS PERGUNTAS FREQUENTES</span>
           <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2">
             Tire Suas <span className="text-gradient-silver">Dúvidas</span> ❓
           </h2>

@@ -40,10 +40,11 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
         {/* HEADLINE above VSL */}
         <div className="max-w-4xl mx-auto text-center mb-6 md:mb-8">
           <h1 className="font-serif text-xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 md:mb-5 text-foreground">
-            Como 3.847 Mulheres Transformaram a Dor do Término na <span className="text-gradient-silver">Arma Mais Poderosa</span> Para Conquistar Homens de Alto Valor
+            Como 3.847 Mulheres Transformaram a Dor do Término na <span className="text-gradient-silver">Arma Mais Poderosa</span> Para Conquistar Homens de Alto Valor - E Passaram de Rejeitadas a Irresistíveis Utilizando Este Método...
           </h1>
           <p className="text-sm md:text-lg text-muted-foreground leading-relaxed italic">
-            Baseado em estudos de psicologia comportamental e validado por mais de 15.000 horas de aplicação prática, este método revela como transformar rejeição em magnetismo irresistível — <span className="text-primary font-semibold">mesmo que você se sinta "invisível" agora</span>
+            Baseado em estudos de psicologia comportamental e validado por mais de 15.000 horas de aplicação prática, este Método é o ÚNICO no mercado que revela como transformar rejeição em magnetismo irresistível — mesmo que você se sinta "invisível" agora.
+            Assista ao vídeo abaixo e veja como ela fez para o ex se arrepender de ter a perdido...
           </p>
         </div>
 
@@ -60,7 +61,7 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
           
           <div className="mt-3 md:mt-4 p-3 md:p-4 bg-primary/10 border border-primary/20 rounded-xl">
             <p className="text-center text-foreground font-semibold text-xs md:text-base leading-snug">
-              ⚠️ <strong>AVISO:</strong> Este vídeo ficará disponível apenas por <strong className="text-primary">tempo limitado.</strong> Assista agora antes que saia do ar!
+              ⚠️ <strong>AVISO:</strong> Este vídeo ficará disponível por tempo limitado. Assista AGORA antes que saia do ar!
             </p>
           </div>
         </div>
