@@ -29,7 +29,7 @@ export const GuaranteeSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground text-sm md:text-lg">✅ GARANTIA #1 — RESULTADOS OU DINHEIRO DE VOLTA</h3>
                     <p className="text-muted-foreground mt-1 text-xs md:text-base">
-                      Se em 7 dias você não se sentir pelo menos 10x mais confiante e poderosa, devolvemos CADA centavo. Sem perguntas, sem burocracia.
+                      Se em 7 dias você não se sentir pelo menos 10x mais confiante e poderosa, devolvemos CADA centavo. Sem perguntas, sem burocracia.SIMPLES ASSIM.
                     </p>
                   </div>
                 </div>
@@ -49,7 +49,8 @@ export const GuaranteeSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground text-sm md:text-lg">✅ GARANTIA #3 — SUPORTE VIP</h3>
                     <p className="text-muted-foreground mt-1 text-xs md:text-base">
-                      Acesso direto comigo e minha equipe por 30 dias. Suas perguntas serão respondidas em até 24 horas.
+                      Acesso direto comigo e minha equipe por 21 dias. Suas perguntas serão respondidas em até 48 horas.
+                      Saiba que Tudo em nosso Método, é muito simples. com examplos claros e linguagem direta, auto explicativo, sabe? Mas se por algum motivo surgirem dúvidas, nos colocamos a sua disposição pra te ajudar com o que for preciso. 
                     </p>
                   </div>
                 </div>
@@ -58,7 +59,7 @@ export const GuaranteeSection = () => {
 
             <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-border/30 text-center">
               <p className="text-sm md:text-lg text-foreground font-medium">
-                <strong>Você literalmente NÃO TEM NADA A PERDER.</strong> Ou você se transforma, ou seu dinheiro volta integralmente.
+                <strong>Você literalmente NÃO TEM NADA A PERDER.</strong> Ou você se transforma, ou seu dinheiro volta integralmente.💕
               </p>
             </div>
           </div>

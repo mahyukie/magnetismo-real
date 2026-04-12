@@ -24,10 +24,10 @@ export const BenefitsSection = () => {
           <div className="p-5 md:p-6 bg-destructive/10 border border-destructive/30 rounded-2xl">
             <h3 className="font-bold text-foreground mb-3 text-base md:text-lg">OPÇÃO 1:</h3>
             <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-              Feche esta página e continue vivendo a mesma dor, a mesma insegurança, a mesma sensação de que "nunca mais vai ser a mesma"...
+              Feche esta página e continue vivendo a mesma dor, a mesma insegurança, a mesma sensação de que "nunca mais vai ser a mesma, e ainda ficar com aquele arrependimento, por não ter entrado para o Método AURORA, sem saber quantas coisas maravilhosas poderiam ter acontecido com você!"...
             </p>
             <p className="text-muted-foreground text-sm md:text-base mt-2">
-              Continue vendo outras mulheres conquistarem os homens que você deseja... Continue se sentindo invisível, rejeitada, sem valor...
+              Continue vendo outras mulheres conquistarem os homens que você deseja... Continue se sentindo invisível, rejeitada, sem valor e ainda somado a TUDO isso, um coração partido e uma ferida que não cicatriza..😪
             </p>
           </div>
 
@@ -35,36 +35,36 @@ export const BenefitsSection = () => {
           <div className="p-5 md:p-6 bg-secondary/10 border-2 border-secondary/30 rounded-2xl shadow-silver">
             <h3 className="font-bold text-secondary mb-3 text-base md:text-lg">OU... OPÇÃO 2:</h3>
             <p className="text-foreground text-sm md:text-base leading-relaxed font-medium">
-              Decida que HOJE é o dia que sua vida amorosa muda para sempre.
+              Decida que HOJE é o dia que sua vida amorosa muda para sempre. PORQUE VOCÊ MERECE!!👸
             </p>
             <ul className="mt-3 space-y-2 text-foreground text-sm md:text-base">
               <li className="flex items-start gap-2">
                 <Check className="w-4 h-4 md:w-5 md:h-5 text-secondary flex-shrink-0 mt-0.5" />
-                Que você nunca mais vai aceitar migalhas
+                Que você nunca mais vai aceitar migalhas emocionais de homem nenhum;
               </li>
               <li className="flex items-start gap-2">
                 <Check className="w-4 h-4 md:w-5 md:h-5 text-secondary flex-shrink-0 mt-0.5" />
-                Que você vai se tornar a mulher que tem OPÇÕES
+                Que você vai se tornar a mulher que tem OPÇÕES de alto valor e sente-se estimada e valorizada
               </li>
               <li className="flex items-start gap-2">
                 <Check className="w-4 h-4 md:w-5 md:h-5 text-secondary flex-shrink-0 mt-0.5" />
-                Que VOCÊ é quem ESCOLHE e é DESEJADA
+                Que VOCÊ é quem ESCOLHE e é DESEJADA, não só pelo seu corpo, dinheiro ou beleza, e sim por sua feminilidade, e poder de atração magnética que deixam os homen hipnotizados, loucos para te decifrar...
               </li>
             </ul>
           </div>
 
           <p className="text-center text-foreground font-semibold text-base md:text-lg">
-            A escolha é sua. Mas lembre-se: <span className="text-secondary">apenas 12 vagas restantes</span> e esse preço especial <strong>NUNCA MAIS</strong> será oferecido.
+            A escolha é sua. Mas lembre-se: <span className="text-secondary">apenas 12 vagas restantes</span> e esse preço especial <strong>NUNCA MAIS</strong> será oferecido!
           </p>
         </div>
 
         {/* Pricing */}
         <div className="text-center mt-10">
           <p className="text-muted-foreground text-sm">VALOR TOTAL se comprado separadamente:</p>
-          <p className="text-muted-foreground line-through text-lg">R$1.997,00</p>
+          <p className="line-through text-lg text-rose-700">R$1.997,00</p>
           <p className="text-foreground font-bold text-base md:text-lg mt-2">SEU INVESTIMENTO HOJE:</p>
-          <p className="text-secondary font-bold text-3xl md:text-5xl mt-1">R$197,00</p>
-          <p className="text-muted-foreground text-sm mt-1">ou 12x de apenas R$19,70</p>
+          <p className="font-bold text-3xl md:text-5xl mt-1 text-lime-500">12 x 19,70</p>
+          <p className="text-sm mt-1 text-rose-700">OU R$197,00 Á VISTA</p>
           <p className="text-muted-foreground text-xs mt-1 italic">Menos que um jantar para duas pessoas</p>
         </div>
 

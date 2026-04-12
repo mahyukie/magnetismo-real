@@ -24,9 +24,9 @@ export const MethodSection = () => {
   ];
 
   const miniTestimonials = [
-    { name: "Carolina, 34", quote: "Em 11 dias ele voltou pedindo outra chance. Mas agora EU que não sei se quero ele..." },
+    { name: "Maria Clara, 28", quote: "Em 11 dias meu ex voltou pedindo outra chance. Mas agora EU que não sei se quero ele de volta...Pois estou gostando das novas opções que estou atraindo... Foi ele que perdeu e não eu!" },
     { name: "Mariana, 28", quote: "Ele bloqueou todo mundo menos eu. Agora me liga às 2 da manhã dizendo que errou..." },
-    { name: "Patrícia, 45", quote: "Achei que com 45 anos eu não teria mais chance. Em 3 semanas tinha 3 homens me cortejando..." }
+    { name: "Patrícia, 50", quote: "Achei que com 50 anos eu não teria mais chance, pois também passei por um divórcio bem difícil. Sabe como é, dediquei minha vida toda ao relacionamento, aos filhos e agora chegou a minha vez. Em 3 semanas tinha 2 homens me cortejando, estou me sentindo nas nuvens... hahaha" }
   ];
 
   return (
@@ -37,12 +37,12 @@ export const MethodSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-6 md:mb-10">
-          <span className="text-rose-300 font-semibold text-sm uppercase tracking-wider">Apresentando</span>
+          <span className="text-rose-300 font-semibold text-sm uppercase tracking-wider">APRESENTANDO A VOCÊS</span>
           <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2 text-white">
             MÉTODO <span className="text-gradient-silver">AURORA</span>
           </h2>
           <p className="text-rose-200/70 mt-3 text-sm md:text-lg max-w-2xl mx-auto italic">
-            O Primeiro Sistema de Reversão Psicológica Para Transformar Rejeição em Magnetismo Irresistível
+            O Primeiro Sistema de Reversão Psicológica Que Transforma Rejeição em Magnetismo Irresistível
           </p>
         </div>
 
@@ -58,15 +58,15 @@ export const MethodSection = () => {
               <li>• Se você se sente "sem esperança"</li>
             </ul>
             <p className="text-white font-semibold mt-4 text-sm md:text-base">
-              Você para de ser a "rejeitada" e se torna a <span className="text-rose-300">"desejada"</span>. De forma 100% AUTÊNTICA.
+              Você para de ser a "rejeitada" e se torna a <span className="text-rose-300">"desejada"</span>. De forma 100% AUTÊNTICA.Sem Joguinhos ou manipulação psicológica..
             </p>
           </div>
         </div>
 
         <div className="text-center mb-10">
           <h3 className="font-serif text-xl md:text-3xl font-bold text-white">
-            Os 3 Gatilhos Neurológicos Que Fazem <br className="hidden md:block"/>
-            <span className="text-gradient-silver">Homens Te Perseguirem</span>
+            Conheçam Agora Os 3 Gatilhos Neurológicos Que Fazem <br className="hidden md:block"/>
+            <span className="text-gradient-silver">Homens Te Perseguirem(NO BOM SENTIDO)</span>
           </h3>
         </div>
 

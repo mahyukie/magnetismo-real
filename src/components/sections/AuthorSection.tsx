@@ -14,7 +14,7 @@ export const AuthorSection = () => {
             loading="lazy"
           />
           <h2 className="font-serif text-2xl md:text-5xl font-bold">
-            Conheça a <span className="text-gradient-silver">Criadora</span>
+            Conheça um pouquinho a <span className="text-gradient-silver">Criadora</span>
           </h2>
         </div>
 
@@ -41,18 +41,20 @@ export const AuthorSection = () => {
 
               <div className="flex-1 space-y-4 text-center md:text-left">
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Sou <strong className="text-foreground">Marina</strong>, facilitadora e criadora do <span className="text-secondary">Método Aurora</span>. Sei exatamente o que você está sentindo, pois já passei pelo mesmo.
+                  Olá, minhas queridas! Aqui é a <strong className="text-foreground">Marina</strong>, facilitadora e criadora do antigo Método Cleópatra, refinado <span className="text-secondary">Método Aurora</span>. Dois conteúdos que ajudaram e continuam ajudando TANTAS mulheres, que ouso dizer, que são meus dois bebês, pois tenho tamanho carinho pelo propósito que está envolvido.
+                  Sei MUITO BEM, sei exatamente o que você está sentindo, pois já passei pelo mesmo.💔
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Quando meu ex rompeu comigo após 4 anos, entrei em colapso. Fui viajar para me encontrar e conheci <strong className="text-foreground">Dra. Sophia Miendez</strong>, que me ensinou os princípios que hoje formam o Método Aurora.
+                  Quando meu ex rompeu comigo, do nada e me trocou após 6 anos de relacionamento, entrei em colapso, meu chão ruiu diante dos meus pés.Pois tinha MUITOS planos para NÓS.
+                   Fui viajar sozinha para me encontrar e conheci <strong className="text-foreground">Dra. Sophia Miendez</strong>, que me ensinou TODOS os princípios que ela estudou por mais de 20 anos, que hoje formam o Método Aurora.
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Hoje, 18 meses depois, já ajudei <strong className="text-secondary">3.847 mulheres</strong> a fazerem a mesma transformação.
+                  Hoje, + de 18 meses depois, já ajudei <strong className="text-secondary">3.847 mulheres</strong> a fazerem a mesma transformação e ressignificação em suas vidas. Promovendo cura e renovação interior, ativação do Poder Feminino(recuperação da auto estima), e estratégias de Atração Natural.
                 </p>
 
                 <div className="p-4 bg-secondary/10 border border-secondary/30 rounded-xl mt-6">
                   <p className="text-foreground font-medium italic text-sm md:text-base">
-                    "Minha missão: provar que você pode ser uma mulher forte, autoconfiante, com energia magnética fora da curva, para atrair homens que te valorizem de verdade."
+                    "Meu verdadeiro Propósito: provar que você pode ser uma mulher forte, autoconfiante, com energia magnética fora da curva, para atrair homens de alto valor que te valorizem de verdade."E não qualquer mequetrefe que pode ferir seu coração novamente.
                   </p>
                 </div>
 
@@ -72,7 +74,7 @@ export const AuthorSection = () => {
           </div>
           <div className="p-4 md:p-5 bg-card/60 border border-border/30 rounded-xl">
             <p className="text-muted-foreground text-xs md:text-sm">
-              <strong className="text-foreground">P.P.S.:</strong> Lembra da pergunta que Dra. Sophia me fez? "Você acha que Cleópatra chorava no banheiro?" <strong className="text-secondary">NÃO.</strong> E nem você vai precisar chorar nunca mais. Sua transformação começa AGORA.
+              <strong className="text-foreground">P.P.S.:</strong> Lembra da pergunta que Dra. Sophia me fez? "Você acha que Cleópatra chorava no banheiro?" <strong className="text-secondary">NÃO.</strong> E nem você vai precisar chorar mais. Sua transformação começa AGORA. E SÓ DEPENDE DE UM CLIQUE.
             </p>
           </div>
         </div>

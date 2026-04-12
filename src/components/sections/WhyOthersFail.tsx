@@ -19,7 +19,7 @@ export const WhyOthersFail = () => {
         <div className="max-w-3xl mx-auto space-y-6">
           <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-border/50">
             <p className="text-foreground text-sm md:text-base leading-relaxed">
-              <strong>Simples:</strong> Quero garantir que cada mulher tenha resultados excepcionais. Nos últimos 6 meses, sempre que abro mais de 50 vagas, o suporte fica sobrecarregado e algumas alunas não conseguem a atenção que merecem.
+              <strong>Simples:</strong> Quero garantir que cada mulher tenha resultados excepcionais. Nos últimos 6 meses, sempre que abro mais de 50 vagas, o suporte fica sobrecarregado e algumas alunas podem não conseguir a atenção que merecem.
             </p>
           </div>
           <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-border/50">
@@ -29,7 +29,7 @@ export const WhyOthersFail = () => {
           </div>
           <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-border/50">
             <p className="text-foreground text-sm md:text-base leading-relaxed">
-              Além disso, <strong>este preço especial</strong> foi autorizado pela minha equipe apenas para este lançamento. A partir da próxima turma, o investimento volta para <span className="text-destructive font-bold">R$1.997,00</span>.
+              Além disso, <strong>este preço especial</strong> foi autorizado pela minha equipe apenas para ESTE LANÇAMENTO. A partir da próxima turma, o investimento volta para <span className="text-destructive font-bold">R$1.997,00</span>.
             </p>
           </div>
         </div>
