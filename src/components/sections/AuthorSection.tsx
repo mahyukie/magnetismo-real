@@ -69,7 +69,7 @@ export const AuthorSection = () => {
         <div className="max-w-3xl mx-auto mt-10 space-y-4">
           <div className="p-4 md:p-5 bg-card/60 border border-border/30 rounded-xl">
             <p className="text-muted-foreground text-xs md:text-sm">
-              <strong className="text-foreground">P.S.:</strong> Enquanto você estava lendo esta página, <strong className="text-secondary">3 mulheres</strong> já garantiram sua vaga. Não deixe para "pensar depois" — depois pode ser tarde demais.
+              <strong className="text-foreground">P.S.:</strong> Enquanto você estava lendo esta página, <strong className="text-secondary">3 mulheres</strong> já garantiram sua vaga. Não deixe para "pensar depois"DECIDIR DEPOIS — depois pode acabar as vagas e ficar mais caro, podendo ser tarde demais.
             </p>
           </div>
           <div className="p-4 md:p-5 bg-card/60 border border-border/30 rounded-xl">

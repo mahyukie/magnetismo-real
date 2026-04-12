@@ -79,7 +79,7 @@ export const StorySection = () => {
           </div>
 
           <p className="text-center text-foreground font-semibold text-base md:text-lg">
-            Hoje, 18 meses depois, já ajudei <span className="text-secondary">3.847 mulheres</span> a fazerem a mesma transformação.
+            Hoje, + de 18 meses depois, já ajudei <span className="text-secondary">+ 3.847 mulheres</span> a fazerem a mesma transformação. E ressignificação de suas vidas amorosas.
           </p>
           <p className="text-xl text-center font-bold text-secondary mt-2">
             E agora é SUA vez. ✨
