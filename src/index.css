@@ -1,106 +1,111 @@
 /* Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Design System - Método Aurora — Aconchego & Feminilidade */
+/* Design System - Método Nefertiti — Poder, Elegância & Sofisticação */
 
 @layer base {
   :root {
-    /* Paleta quente, acolhedora e feminina */
-    --background: 20 30% 97%;
-    --foreground: 20 25% 15%;
+    /* Gold & Bronze palette */
+    --background: 38 33% 96%;
+    --foreground: 0 0% 17%;
 
-    --card: 25 40% 95%;
-    --card-foreground: 20 25% 15%;
+    --card: 38 30% 94%;
+    --card-foreground: 0 0% 17%;
 
-    --popover: 25 40% 95%;
-    --popover-foreground: 20 25% 15%;
+    --popover: 38 30% 94%;
+    --popover-foreground: 0 0% 17%;
 
-    /* Rose suave como primário */
-    --primary: 345 35% 55%;
+    /* Dourado elegante */
+    --primary: 43 76% 52%;
     --primary-foreground: 0 0% 100%;
 
-    /* Rose-gold quente */
-    --secondary: 15 55% 65%;
+    /* Marrom bronze */
+    --secondary: 25 63% 32%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 25 25% 90%;
-    --muted-foreground: 20 15% 45%;
+    --muted: 38 20% 90%;
+    --muted-foreground: 0 0% 40%;
 
-    /* Accent suave */
-    --accent: 30 50% 80%;
-    --accent-foreground: 20 25% 15%;
+    /* Accent dourado claro */
+    --accent: 38 50% 85%;
+    --accent-foreground: 0 0% 17%;
 
-    --destructive: 0 72% 51%;
+    /* Vermelho elegante para CTAs */
+    --destructive: 349 73% 47%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 25 20% 88%;
-    --input: 25 20% 88%;
-    --ring: 345 35% 55%;
+    --border: 38 20% 85%;
+    --input: 38 20% 85%;
+    --ring: 43 76% 52%;
 
     --radius: 0.75rem;
 
-    /* Cores customizadas */
-    --aurora-warm: 25 35% 95%;
-    --aurora-blush: 345 30% 90%;
-    --aurora-cream: 35 40% 96%;
-    --rosegold: 15 55% 65%;
-    --rosegold-dark: 15 45% 50%;
-    --rosegold-light: 20 60% 80%;
-    --amber: 30 50% 70%;
-    --rose-soft: 345 35% 55%;
-    --rose-petal: 350 40% 88%;
+    /* Custom Nefertiti colors */
+    --nefertiti-gold: 43 76% 52%;
+    --nefertiti-gold-light: 43 70% 72%;
+    --nefertiti-gold-dark: 43 80% 40%;
+    --nefertiti-beige: 38 33% 96%;
+    --nefertiti-beige-warm: 33 40% 93%;
+    --nefertiti-bronze: 25 63% 32%;
+    --nefertiti-bronze-light: 25 45% 55%;
+    --nefertiti-cta: 349 73% 47%;
+    --nefertiti-cta-dark: 349 75% 38%;
+    --nefertiti-text: 0 0% 17%;
+    --nefertiti-emerald: 145 63% 42%;
 
-    /* Gradientes */
-    --gradient-hero: linear-gradient(180deg, hsl(25 35% 95%) 0%, hsl(350 40% 96%) 50%, hsl(25 40% 95%) 100%);
-    --gradient-rosegold: linear-gradient(135deg, hsl(350 40% 88%) 0%, hsl(15 55% 65%) 50%, hsl(345 35% 55%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(25 40% 96%) 0%, hsl(350 35% 94%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(345 50% 45%) 0%, hsl(350 55% 40%) 40%, hsl(340 60% 35%) 100%);
-    --gradient-section-dark: linear-gradient(180deg, hsl(345 25% 18%) 0%, hsl(350 30% 14%) 50%, hsl(340 20% 12%) 100%);
-    --gradient-section-blush: linear-gradient(180deg, hsl(350 40% 92%) 0%, hsl(345 35% 88%) 50%, hsl(25 35% 93%) 100%);
-    --gradient-section-warm: linear-gradient(180deg, hsl(25 40% 94%) 0%, hsl(30 45% 90%) 50%, hsl(20 35% 93%) 100%);
+    /* Gradients */
+    --gradient-hero: linear-gradient(180deg, hsl(38 33% 96%) 0%, hsl(43 50% 92%) 40%, hsl(38 40% 94%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(43 76% 52%) 0%, hsl(38 70% 60%) 50%, hsl(43 80% 45%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(38 30% 96%) 0%, hsl(43 35% 93%) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(349 73% 50%) 0%, hsl(349 75% 42%) 50%, hsl(349 78% 36%) 100%);
+    --gradient-section-dark: linear-gradient(180deg, hsl(25 40% 16%) 0%, hsl(25 50% 12%) 50%, hsl(20 45% 10%) 100%);
+    --gradient-section-beige: linear-gradient(180deg, hsl(38 35% 94%) 0%, hsl(43 30% 91%) 50%, hsl(38 30% 93%) 100%);
+    --gradient-section-warm: linear-gradient(180deg, hsl(33 40% 93%) 0%, hsl(38 45% 90%) 50%, hsl(33 35% 92%) 100%);
+    --gradient-section-gold: linear-gradient(180deg, hsl(43 50% 94%) 0%, hsl(43 40% 91%) 50%, hsl(38 35% 93%) 100%);
 
-    /* Sombras suaves */
-    --shadow-rosegold: 0 4px 20px hsl(345 35% 55% / 0.15);
-    --shadow-glow: 0 8px 40px hsl(345 50% 45% / 0.35);
-    --shadow-card: 0 4px 24px -6px hsl(20 20% 50% / 0.1);
+    /* Shadows */
+    --shadow-gold: 0 4px 20px hsl(43 76% 52% / 0.2);
+    --shadow-glow: 0 8px 40px hsl(349 73% 47% / 0.35);
+    --shadow-card: 0 4px 24px -6px hsl(25 30% 40% / 0.1);
+    --shadow-bronze: 0 4px 20px hsl(25 63% 32% / 0.15);
 
-    /* Animações */
+    /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 25 35% 95%;
-    --sidebar-foreground: 20 25% 15%;
-    --sidebar-primary: 345 35% 55%;
+    --sidebar-background: 38 33% 96%;
+    --sidebar-foreground: 0 0% 17%;
+    --sidebar-primary: 43 76% 52%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 25 25% 90%;
-    --sidebar-accent-foreground: 20 25% 15%;
-    --sidebar-border: 25 20% 88%;
-    --sidebar-ring: 345 35% 55%;
+    --sidebar-accent: 38 20% 90%;
+    --sidebar-accent-foreground: 0 0% 17%;
+    --sidebar-border: 38 20% 85%;
+    --sidebar-ring: 43 76% 52%;
   }
 
   .dark {
-    --background: 20 30% 97%;
-    --foreground: 20 25% 15%;
-    --card: 25 40% 95%;
-    --card-foreground: 20 25% 15%;
-    --popover: 25 40% 95%;
-    --popover-foreground: 20 25% 15%;
-    --primary: 345 35% 55%;
+    --background: 38 33% 96%;
+    --foreground: 0 0% 17%;
+    --card: 38 30% 94%;
+    --card-foreground: 0 0% 17%;
+    --popover: 38 30% 94%;
+    --popover-foreground: 0 0% 17%;
+    --primary: 43 76% 52%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 15 55% 65%;
+    --secondary: 25 63% 32%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 25 25% 90%;
-    --muted-foreground: 20 15% 45%;
-    --accent: 30 50% 80%;
-    --accent-foreground: 20 25% 15%;
-    --destructive: 0 72% 51%;
+    --muted: 38 20% 90%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 38 50% 85%;
+    --accent-foreground: 0 0% 17%;
+    --destructive: 349 73% 47%;
     --destructive-foreground: 0 0% 100%;
-    --border: 25 20% 88%;
-    --input: 25 20% 88%;
-    --ring: 345 35% 55%;
+    --border: 38 20% 85%;
+    --input: 38 20% 85%;
+    --ring: 43 76% 52%;
   }
 }
 
@@ -111,37 +116,44 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Lato', system-ui, sans-serif;
+    font-family: 'Open Sans', system-ui, sans-serif;
     overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: 'Playfair Display', Georgia, serif;
   }
 }
 
 @layer utilities {
-  .text-gradient-rosegold {
-    @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-rosegold);
+  .font-heading {
+    font-family: 'Playfair Display', Georgia, serif;
   }
 
-  .text-gradient-silver {
-    @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-rosegold);
+  .font-subheading {
+    font-family: 'Lora', Georgia, serif;
+  }
+
+  .font-body {
+    font-family: 'Open Sans', system-ui, sans-serif;
+  }
+
+  .font-cta {
+    font-family: 'Montserrat', system-ui, sans-serif;
   }
 
   .text-gradient-gold {
     @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-rosegold);
+    background-image: var(--gradient-gold);
+  }
+
+  .text-gradient-silver {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-gold);
   }
 
   .bg-gradient-hero {
     background: var(--gradient-hero);
-  }
-
-  .bg-gradient-silver {
-    background: var(--gradient-rosegold);
   }
 
   .bg-gradient-cta {
@@ -156,20 +168,24 @@
     background: var(--gradient-section-dark);
   }
 
-  .bg-gradient-section-blush {
-    background: var(--gradient-section-blush);
+  .bg-gradient-section-beige {
+    background: var(--gradient-section-beige);
   }
 
   .bg-gradient-section-warm {
     background: var(--gradient-section-warm);
   }
 
-  .shadow-gold {
-    box-shadow: var(--shadow-rosegold);
+  .bg-gradient-section-gold {
+    background: var(--gradient-section-gold);
   }
 
-  .shadow-silver {
-    box-shadow: var(--shadow-rosegold);
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .shadow-bronze {
+    box-shadow: var(--shadow-bronze);
   }
 
   .shadow-glow {
@@ -192,22 +208,23 @@
     animation: shimmer 2s linear infinite;
     background-size: 200% 100%;
   }
+
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
 }
 
 @keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 
 @keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
