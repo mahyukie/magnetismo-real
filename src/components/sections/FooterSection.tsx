@@ -2,23 +2,23 @@ import logoAurora from "@/assets/logo-aurora.png";
 
 export const FooterSection = () => {
   return (
-    <footer className="py-10 md:py-12 bg-card border-t border-border/30">
+    <footer className="py-10 md:py-12 bg-card border-t border-primary/15">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-6 md:mb-8">
           <img
             src={logoAurora}
-            alt="Método Aurora"
+            alt="Método Nefertiti"
             className="h-10 md:h-12 opacity-70"
             loading="lazy"
           />
         </div>
 
         <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-6 md:mb-8 text-xs md:text-sm">
-          <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">Termos de Uso</a>
+          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Termos de Uso</a>
           <span className="text-border">|</span>
-          <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">Política de Privacidade</a>
+          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Política de Privacidade</a>
           <span className="text-border">|</span>
-          <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">Contato</a>
+          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Contato</a>
         </div>
 
         <div className="max-w-3xl mx-auto text-center mb-6 md:mb-8">
@@ -41,7 +41,7 @@ export const FooterSection = () => {
 
         <div className="text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Método Aurora. Todos os direitos reservados.
+            © {new Date().getFullYear()} Método Nefertiti. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Brain, Zap, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const MethodSection = () => {
   const triggers = [
@@ -31,84 +32,93 @@ export const MethodSection = () => {
 
   return (
     <section className="py-10 md:py-24 bg-gradient-section-dark relative overflow-hidden">
-      {/* Decorative orbs */}
-      <div className="absolute top-20 left-10 w-64 h-64 bg-rose-500/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl" />
+      <div className="absolute top-20 left-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-6 md:mb-10">
-          <span className="text-rose-300 font-semibold text-sm uppercase tracking-wider">APRESENTANDO A VOCÊS</span>
-          <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2 text-white">
-            MÉTODO <span className="text-gradient-silver">AURORA</span>
-          </h2>
-          <p className="text-rose-200/70 mt-3 text-sm md:text-lg max-w-2xl mx-auto italic">
-            O Primeiro Sistema de Reversão Psicológica Que Transforma Rejeição em Magnetismo Irresistível
-          </p>
-        </div>
-
-        <div className="max-w-3xl mx-auto mb-10 md:mb-16">
-          <div className="p-5 md:p-6 bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl">
-            <p className="text-white font-medium text-sm md:text-base mb-4">
-              <strong>Não importa:</strong>
-            </p>
-            <ul className="space-y-2 text-rose-100/80 text-sm md:text-base">
-              <li>• Sua idade (funciona MUITO bem dos 20 aos 65 anos)</li>
-              <li>• Há quanto tempo foi o término</li>
-              <li>• Se ele já está com outra</li>
-              <li>• Se você se sente "sem esperança"</li>
-            </ul>
-            <p className="text-white font-semibold mt-4 text-sm md:text-base">
-              Você para de ser a "rejeitada" e se torna a <span className="text-rose-300">"desejada"</span>. De forma 100% AUTÊNTICA.Sem Joguinhos ou manipulação psicológica..
+        <ScrollReveal>
+          <div className="text-center mb-6 md:mb-10">
+            <span className="font-cta text-primary font-semibold text-sm uppercase tracking-wider">APRESENTANDO A VOCÊS</span>
+            <h2 className="font-heading text-2xl md:text-5xl font-bold mt-2 text-white">
+              MÉTODO <span className="text-gradient-gold">NEFERTITI</span>
+            </h2>
+            <p className="font-subheading text-primary/70 mt-3 text-sm md:text-lg max-w-2xl mx-auto italic">
+              O Primeiro Sistema de Reversão Psicológica Que Transforma Rejeição em Magnetismo Irresistível
             </p>
           </div>
-        </div>
+        </ScrollReveal>
 
-        <div className="text-center mb-10">
-          <h3 className="font-serif text-xl md:text-3xl font-bold text-white">
-            Conheçam Agora Os 3 Gatilhos Neurológicos Que Fazem <br className="hidden md:block"/>
-            <span className="text-gradient-silver">Homens Te Perseguirem(NO BOM SENTIDO)</span>
-          </h3>
-        </div>
+        <ScrollReveal delay={100}>
+          <div className="max-w-3xl mx-auto mb-10 md:mb-16">
+            <div className="p-5 md:p-6 bg-white/10 backdrop-blur-sm border border-primary/20 rounded-2xl">
+              <p className="text-white font-medium text-sm md:text-base mb-4">
+                <strong>Não importa:</strong>
+              </p>
+              <ul className="space-y-2 text-white/70 text-sm md:text-base">
+                <li>• Sua idade (funciona MUITO bem dos 20 aos 65 anos)</li>
+                <li>• Há quanto tempo foi o término</li>
+                <li>• Se ele já está com outra</li>
+                <li>• Se você se sente "sem esperança"</li>
+              </ul>
+              <p className="text-white font-semibold mt-4 text-sm md:text-base">
+                Você para de ser a "rejeitada" e se torna a <span className="text-primary">"desejada"</span>. De forma 100% AUTÊNTICA. Sem Joguinhos ou manipulação psicológica..
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={200}>
+          <div className="text-center mb-10">
+            <h3 className="font-heading text-xl md:text-3xl font-bold text-white">
+              Conheçam Agora Os 3 Gatilhos Neurológicos Que Fazem <br className="hidden md:block"/>
+              <span className="text-gradient-gold">Homens Te Perseguirem (NO BOM SENTIDO)</span>
+            </h3>
+          </div>
+        </ScrollReveal>
 
         <div className="grid md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto mb-10 md:mb-16">
           {triggers.map((trigger, index) => (
-            <div key={index} className="relative group">
-              <div className="absolute -top-4 -left-4 w-10 h-10 bg-secondary rounded-full flex items-center justify-center font-bold text-white shadow-silver z-10">
-                {index + 1}
-              </div>
-              <div className="h-full bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-white/15 group-hover:border-rose-400/40 group-hover:shadow-glow transition-all duration-300">
-                <div className="w-14 h-14 bg-rose-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-rose-500/30 transition-colors">
-                  <trigger.icon className="w-7 h-7 text-rose-300" />
+            <ScrollReveal key={index} delay={index * 100 + 300}>
+              <div className="relative group h-full">
+                <div className="absolute -top-4 -left-4 w-10 h-10 bg-primary rounded-full flex items-center justify-center font-cta font-bold text-secondary-foreground shadow-gold z-10">
+                  {index + 1}
                 </div>
-                <h4 className="font-serif text-lg font-bold mb-3 text-white">{trigger.title}</h4>
-                <p className="text-rose-100/70 text-sm leading-relaxed mb-4">{trigger.description}</p>
-                <div className="p-3 bg-rose-500/15 rounded-lg border border-rose-400/20">
-                  <p className="text-rose-300 font-semibold text-sm italic">Resultado: {trigger.result}</p>
+                <div className="h-full bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-primary/20 group-hover:border-primary/50 group-hover:shadow-gold transition-all duration-300">
+                  <div className="w-14 h-14 bg-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
+                    <trigger.icon className="w-7 h-7 text-primary" />
+                  </div>
+                  <h4 className="font-heading text-lg font-bold mb-3 text-white">{trigger.title}</h4>
+                  <p className="text-white/60 text-sm leading-relaxed mb-4">{trigger.description}</p>
+                  <div className="p-3 bg-primary/15 rounded-lg border border-primary/20">
+                    <p className="text-primary font-semibold text-sm italic">Resultado: {trigger.result}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </ScrollReveal>
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <p className="text-center text-white font-semibold text-base md:text-lg mb-6">
-            Aqui estão apenas ALGUNS resultados das nossas alunas:
-          </p>
-          <div className="space-y-4">
-            {miniTestimonials.map((t, i) => (
-              <div key={i} className="p-4 bg-white/8 border border-white/10 rounded-xl">
-                <p className="text-rose-100/80 italic text-sm md:text-base">
-                  📍 <strong className="text-white">{t.name}:</strong> <em>"{t.quote}"</em>
-                </p>
-              </div>
-            ))}
+        <ScrollReveal delay={600}>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-center text-white font-semibold text-base md:text-lg mb-6">
+              Aqui estão apenas ALGUNS resultados das nossas alunas:
+            </p>
+            <div className="space-y-4">
+              {miniTestimonials.map((t, i) => (
+                <div key={i} className="p-4 bg-white/8 border border-white/10 rounded-xl">
+                  <p className="text-white/70 italic text-sm md:text-base">
+                    📍 <strong className="text-white">{t.name}:</strong> <em>"{t.quote}"</em>
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        </ScrollReveal>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA
+              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA — R$ 197
             </a>
           </Button>
         </div>

@@ -1,5 +1,6 @@
 import { Check, Sparkles, Flame, Gem, Zap } from "lucide-react";
 import mockupImage from "@/assets/mockup-devices.png";
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const DeliverablesSection = () => {
   const modules = [
@@ -46,71 +47,77 @@ export const DeliverablesSection = () => {
 
   return (
     <section className="py-10 md:py-24 bg-gradient-hero relative overflow-hidden">
-      <div className="absolute top-1/2 left-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl -translate-y-1/2" />
+      <div className="absolute top-1/2 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-10 md:mb-12">
-          <span className="text-secondary font-semibold text-sm uppercase tracking-wider">O Que Você Vai Receber</span>
-          <h2 className="font-serif text-2xl md:text-5xl font-bold mt-2">
-            Dentro do <span className="text-gradient-silver">Método Aurora</span>
-          </h2>
-        </div>
+        <ScrollReveal>
+          <div className="text-center mb-10 md:mb-12">
+            <span className="font-cta text-primary font-semibold text-sm uppercase tracking-wider">O Que Você Vai Receber</span>
+            <h2 className="font-heading text-2xl md:text-5xl font-bold mt-2 text-foreground">
+              Dentro do <span className="text-gradient-gold">Método Nefertiti</span>
+            </h2>
+          </div>
+        </ScrollReveal>
 
         <div className="grid lg:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
           <div className="space-y-6">
             {modules.map((module, moduleIndex) => (
-              <div key={moduleIndex} className="bg-card/30 rounded-2xl border border-border/30 overflow-hidden">
-                <div className="bg-secondary/20 px-4 md:px-5 py-3 border-b border-border/30">
-                  <h3 className="font-semibold text-foreground text-sm md:text-lg flex items-center gap-2">
-                    <span className="text-lg">{module.emoji}</span>
-                    {module.title}
-                  </h3>
-                  <p className="text-muted-foreground text-xs md:text-sm mt-1 ml-7">({module.subtitle})</p>
-                </div>
-                <div className="p-3 md:p-4 space-y-2 md:space-y-3">
-                  {module.items.map((item, itemIndex) => (
-                    <div
-                      key={itemIndex}
-                      className="flex items-start gap-3 p-2 md:p-3 rounded-xl bg-background/50 hover:bg-background/80 transition-colors"
-                    >
-                      <div className="flex-shrink-0 w-5 h-5 bg-secondary/80 rounded-full flex items-center justify-center mt-0.5">
-                        <Check className="w-3 h-3 text-secondary-foreground" />
+              <ScrollReveal key={moduleIndex} delay={moduleIndex * 150}>
+                <div className="bg-card/30 rounded-2xl border border-primary/15 overflow-hidden">
+                  <div className="bg-primary/15 px-4 md:px-5 py-3 border-b border-primary/15">
+                    <h3 className="font-semibold text-foreground text-sm md:text-lg flex items-center gap-2">
+                      <span className="text-lg">{module.emoji}</span>
+                      {module.title}
+                    </h3>
+                    <p className="text-muted-foreground text-xs md:text-sm mt-1 ml-7">({module.subtitle})</p>
+                  </div>
+                  <div className="p-3 md:p-4 space-y-2 md:space-y-3">
+                    {module.items.map((item, itemIndex) => (
+                      <div
+                        key={itemIndex}
+                        className="flex items-start gap-3 p-2 md:p-3 rounded-xl bg-background/50 hover:bg-background/80 transition-colors"
+                      >
+                        <div className="flex-shrink-0 w-5 h-5 bg-primary/80 rounded-full flex items-center justify-center mt-0.5">
+                          <Check className="w-3 h-3 text-primary-foreground" />
+                        </div>
+                        <p className="text-foreground text-xs md:text-sm">{item}</p>
                       </div>
-                      <p className="text-foreground text-xs md:text-sm">{item}</p>
-                    </div>
-                  ))}
-                  <p className="text-secondary italic text-xs md:text-sm px-2 pt-2">
-                    ✨ {module.result}
-                  </p>
+                    ))}
+                    <p className="text-primary italic text-xs md:text-sm px-2 pt-2">
+                      ✨ {module.result}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </ScrollReveal>
             ))}
           </div>
 
-          <div className="relative flex flex-col items-center lg:sticky lg:top-24">
-            <div className="absolute inset-0 bg-secondary/20 blur-3xl rounded-full" />
-            <img
-              src={mockupImage}
-              alt="Método Aurora - Acesse em qualquer dispositivo"
-              className="relative z-10 w-full max-w-lg mx-auto rounded-2xl shadow-silver"
-              loading="lazy"
-            />
-            <div className="relative z-10 mt-6 bg-card px-5 md:px-6 py-4 rounded-2xl border border-secondary/30 shadow-silver text-center">
-              <p className="text-base md:text-lg font-bold text-foreground flex items-center justify-center gap-2">
-                <Sparkles className="w-5 h-5 text-secondary" />
-                Acesso Imediato
-                <Sparkles className="w-5 h-5 text-secondary" />
-              </p>
-              <p className="text-muted-foreground text-xs md:text-sm mt-1">
-                📱 Celular • 💻 Computador • 📲 Tablet
-              </p>
-              <div className="mt-3 pt-3 border-t border-border/30">
-                <p className="text-sm font-semibold text-secondary">
-                  Oferta por tempo limitado
+          <ScrollReveal delay={200}>
+            <div className="relative flex flex-col items-center lg:sticky lg:top-24">
+              <div className="absolute inset-0 bg-primary/15 blur-3xl rounded-full" />
+              <img
+                src={mockupImage}
+                alt="Método Nefertiti - Acesse em qualquer dispositivo"
+                className="relative z-10 w-full max-w-lg mx-auto rounded-2xl shadow-gold"
+                loading="lazy"
+              />
+              <div className="relative z-10 mt-6 bg-card px-5 md:px-6 py-4 rounded-2xl border border-primary/30 shadow-gold text-center">
+                <p className="text-base md:text-lg font-bold text-foreground flex items-center justify-center gap-2">
+                  <Sparkles className="w-5 h-5 text-primary" />
+                  Acesso Imediato
+                  <Sparkles className="w-5 h-5 text-primary" />
                 </p>
+                <p className="text-muted-foreground text-xs md:text-sm mt-1">
+                  📱 Celular • 💻 Computador • 📲 Tablet
+                </p>
+                <div className="mt-3 pt-3 border-t border-border/30">
+                  <p className="text-sm font-semibold text-primary">
+                    Oferta por tempo limitado
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
         </div>
       </div>
     </section>
