@@ -21,21 +21,21 @@ export const WhyOthersFail = () => {
 
         <div className="max-w-3xl mx-auto space-y-6">
           <ScrollReveal delay={100}>
-            <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20">
+            <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20 shadow-card">
               <p className="text-foreground text-sm md:text-base leading-relaxed">
                 <strong>Simples:</strong> Quero garantir que cada mulher tenha resultados excepcionais. Nos últimos 6 meses, sempre que abro mais de 50 vagas, o suporte fica sobrecarregado e algumas alunas podem não conseguir a atenção que merecem.
               </p>
             </div>
           </ScrollReveal>
           <ScrollReveal delay={200}>
-            <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20">
+            <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20 shadow-card">
               <p className="text-foreground text-sm md:text-base leading-relaxed">
                 <strong className="text-primary">Prefiro transformar 25 vidas COMPLETAMENTE</strong> do que ajudar 200 pela metade.
               </p>
             </div>
           </ScrollReveal>
           <ScrollReveal delay={300}>
-            <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20">
+            <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20 shadow-card">
               <p className="text-foreground text-sm md:text-base leading-relaxed">
                 Além disso, <strong>este preço especial</strong> foi autorizado pela minha equipe apenas para ESTE LANÇAMENTO. A partir da próxima turma, o investimento volta para <span className="text-destructive font-bold">R$1.997,00</span>.
               </p>
@@ -44,7 +44,7 @@ export const WhyOthersFail = () => {
         </div>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
               ✨ CLIQUE AQUI PARA ENTRAR PARA O MÉTODO NEFERTITI
             </a>

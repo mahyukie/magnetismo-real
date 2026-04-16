@@ -58,7 +58,7 @@ export const PainPointsSection = () => {
               ))}
             </div>
 
-            <div className="p-6 bg-gradient-card border-2 border-primary/30 rounded-2xl shadow-gold text-center my-8">
+            <div className="p-6 bg-gradient-card border-2 border-primary/30 rounded-2xl shadow-metallic text-center my-8">
               <p className="text-foreground font-semibold text-base md:text-lg">
                 Se você assentiu com a cabeça para pelo menos 3 dessas afirmações, então você está no lugar certo!
               </p>
@@ -70,7 +70,7 @@ export const PainPointsSection = () => {
         </ScrollReveal>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
               ✨ CLIQUE AQUI PARA ENTRAR PARA O MÉTODO NEFERTITI
             </a>

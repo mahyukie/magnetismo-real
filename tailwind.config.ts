@@ -48,13 +48,13 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         nefertiti: {
-          gold: "hsl(var(--nefertiti-gold))",
-          "gold-light": "hsl(var(--nefertiti-gold-light))",
-          "gold-dark": "hsl(var(--nefertiti-gold-dark))",
-          beige: "hsl(var(--nefertiti-beige))",
-          "beige-warm": "hsl(var(--nefertiti-beige-warm))",
-          bronze: "hsl(var(--nefertiti-bronze))",
-          "bronze-light": "hsl(var(--nefertiti-bronze-light))",
+          rose: "hsl(var(--nefertiti-rose))",
+          "rose-light": "hsl(var(--nefertiti-rose-light))",
+          "rose-dark": "hsl(var(--nefertiti-rose-dark))",
+          nude: "hsl(var(--nefertiti-nude))",
+          "nude-warm": "hsl(var(--nefertiti-nude-warm))",
+          "gold-rose": "hsl(var(--nefertiti-gold-rose))",
+          "gold-rose-light": "hsl(var(--nefertiti-gold-rose-light))",
           cta: "hsl(var(--nefertiti-cta))",
           "cta-dark": "hsl(var(--nefertiti-cta-dark))",
           emerald: "hsl(var(--nefertiti-emerald))",
@@ -77,11 +77,12 @@ export default {
       },
       fontFamily: {
         heading: ['Playfair Display', 'Georgia', 'serif'],
-        subheading: ['Lora', 'Georgia', 'serif'],
-        body: ['Open Sans', 'system-ui', 'sans-serif'],
+        subheading: ['Crimson Pro', 'Georgia', 'serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
         cta: ['Montserrat', 'system-ui', 'sans-serif'],
+        quote: ['Libre Baskerville', 'Georgia', 'serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
-        sans: ['Open Sans', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
@@ -93,8 +94,8 @@ export default {
           to: { height: "0" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 15px hsl(349 73% 47% / 0.3)" },
-          "50%": { boxShadow: "0 0 35px hsl(349 73% 47% / 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 15px hsl(338 77% 43% / 0.3)" },
+          "50%": { boxShadow: "0 0 35px hsl(338 77% 43% / 0.5)" },
         },
         "fade-up": {
           from: { opacity: "0", transform: "translateY(30px)" },

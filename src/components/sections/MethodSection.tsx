@@ -33,7 +33,7 @@ export const MethodSection = () => {
   return (
     <section className="py-10 md:py-24 bg-gradient-section-dark relative overflow-hidden">
       <div className="absolute top-20 left-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
         <ScrollReveal>
@@ -80,10 +80,10 @@ export const MethodSection = () => {
           {triggers.map((trigger, index) => (
             <ScrollReveal key={index} delay={index * 100 + 300}>
               <div className="relative group h-full">
-                <div className="absolute -top-4 -left-4 w-10 h-10 bg-primary rounded-full flex items-center justify-center font-cta font-bold text-secondary-foreground shadow-gold z-10">
+                <div className="absolute -top-4 -left-4 w-10 h-10 bg-gradient-metallic rounded-full flex items-center justify-center font-cta font-bold text-white shadow-metallic z-10">
                   {index + 1}
                 </div>
-                <div className="h-full bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-primary/20 group-hover:border-primary/50 group-hover:shadow-gold transition-all duration-300">
+                <div className="h-full bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-primary/20 group-hover:border-primary/50 group-hover:shadow-metallic transition-all duration-300">
                   <div className="w-14 h-14 bg-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
                     <trigger.icon className="w-7 h-7 text-primary" />
                   </div>
@@ -116,9 +116,9 @@ export const MethodSection = () => {
         </ScrollReveal>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA — R$ 197
+              👑 DESPERTAR MEU PODER NEFERTITI AGORA
             </a>
           </Button>
         </div>

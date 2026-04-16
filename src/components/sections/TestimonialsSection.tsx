@@ -68,7 +68,7 @@ export const TestimonialsSection = () => {
     <section className="py-10 md:py-24 bg-background relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 bg-primary rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-40 h-40 bg-secondary rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-40 h-40 bg-accent rounded-full blur-3xl" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -90,9 +90,9 @@ export const TestimonialsSection = () => {
         <ScrollReveal delay={100}>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-12 max-w-4xl mx-auto">
             {stats.map((stat, index) => (
-              <div key={index} className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-xl p-3 md:p-4 text-center">
+              <div key={index} className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-xl p-3 md:p-4 text-center shadow-card">
                 <div className="flex items-center justify-center gap-1 mb-1">
-                  <span className="font-cta text-xl md:text-3xl font-bold text-primary">{stat.number}</span>
+                  <span className="font-cta text-xl md:text-3xl font-bold text-gradient-gold">{stat.number}</span>
                   {stat.icon && <stat.icon className="w-4 h-4 md:w-5 md:h-5 text-primary fill-primary" />}
                 </div>
                 <span className="text-xs text-muted-foreground">{stat.label}</span>
@@ -104,12 +104,12 @@ export const TestimonialsSection = () => {
         <div className="grid md:grid-cols-2 gap-4 md:gap-6 max-w-5xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <ScrollReveal key={index} delay={index * 100}>
-              <Card className="bg-card/80 backdrop-blur-sm border-primary/15 hover:border-primary/40 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 group h-full">
+              <Card className="bg-card/80 backdrop-blur-sm border-primary/15 hover:border-primary/40 transition-all duration-300 hover:shadow-metallic group h-full">
                 <CardContent className="p-5 md:p-6">
                   <div className="flex items-start gap-3 md:gap-4 mb-4">
                     <Avatar className="w-14 h-14 md:w-16 md:h-16 border-2 border-primary/50 group-hover:border-primary transition-colors">
                       <AvatarImage src={testimonial.image} alt={testimonial.name} className="object-cover" />
-                      <AvatarFallback className="bg-secondary text-secondary-foreground">{testimonial.name.charAt(0)}</AvatarFallback>
+                      <AvatarFallback className="bg-primary/20 text-foreground">{testimonial.name.charAt(0)}</AvatarFallback>
                     </Avatar>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1">
@@ -119,22 +119,22 @@ export const TestimonialsSection = () => {
                       <p className="text-xs md:text-sm text-muted-foreground">{testimonial.age} anos • {testimonial.location}</p>
                       <div className="flex gap-0.5 mt-1">
                         {Array.from({ length: testimonial.rating }).map((_, i) => (
-                          <Star key={i} className="w-3 h-3 md:w-4 md:h-4 text-primary fill-primary" />
+                          <Star key={i} className="w-3 h-3 md:w-4 md:h-4 text-secondary fill-secondary" />
                         ))}
                       </div>
                     </div>
                   </div>
                   <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary/15 rounded-full mb-3">
                     <Heart className="w-3 h-3 md:w-4 md:h-4 text-primary" />
-                    <span className="text-xs md:text-sm font-semibold text-secondary">{testimonial.result}</span>
+                    <span className="text-xs md:text-sm font-semibold text-foreground">{testimonial.result}</span>
                   </div>
                   <div className="relative">
                     <Quote className="absolute -top-2 -left-2 w-6 h-6 md:w-8 md:h-8 text-primary/20" />
-                    <p className="text-muted-foreground italic pl-5 md:pl-6 leading-relaxed text-xs md:text-sm">"{testimonial.quote}"</p>
+                    <p className="text-muted-foreground italic pl-5 md:pl-6 leading-relaxed text-xs md:text-sm font-quote">"{testimonial.quote}"</p>
                   </div>
                   <div className="mt-3 pt-3 border-t border-border/50">
                     <span className="text-xs text-muted-foreground">✨ Destaque:</span>
-                    <p className="font-semibold text-secondary text-sm">{testimonial.highlight}</p>
+                    <p className="font-semibold text-foreground text-sm">{testimonial.highlight}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -143,9 +143,9 @@ export const TestimonialsSection = () => {
         </div>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA — R$ 197
+              👑 DESPERTAR MEU PODER NEFERTITI AGORA
             </a>
           </Button>
         </div>

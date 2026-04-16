@@ -17,13 +17,13 @@ export const GuaranteeSection = () => {
 
         <ScrollReveal delay={100}>
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-card p-6 md:p-12 rounded-3xl border-2 border-primary/40 shadow-gold relative overflow-hidden">
+            <div className="bg-gradient-card p-6 md:p-12 rounded-3xl border-2 border-primary/40 shadow-metallic relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-2xl" />
 
               <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center relative z-10">
                 <div className="flex-shrink-0">
-                  <div className="w-24 h-24 md:w-32 md:h-32 bg-primary/20 rounded-full flex items-center justify-center border-4 border-primary/40 shadow-gold">
-                    <Shield className="w-12 h-12 md:w-16 md:h-16 text-primary" fill="currentColor" />
+                  <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-metallic rounded-full flex items-center justify-center border-4 border-primary/40 shadow-metallic">
+                    <Shield className="w-12 h-12 md:w-16 md:h-16 text-white" fill="currentColor" />
                   </div>
                 </div>
 
@@ -71,9 +71,9 @@ export const GuaranteeSection = () => {
         </ScrollReveal>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              ✨ SIM, QUERO MINHA TRANSFORMAÇÃO AGORA — R$ 197
+              ✨ SIM, QUERO MINHA TRANSFORMAÇÃO AGORA
             </a>
           </Button>
         </div>

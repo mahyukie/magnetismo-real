@@ -24,10 +24,10 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
 
   return (
     <section className="relative min-h-screen bg-gradient-hero overflow-hidden">
-      {/* Decorative gold elements */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl" />
-      <div className="absolute top-1/3 right-10 w-48 h-48 bg-primary/8 rounded-full blur-2xl" />
+      {/* Decorative rose-gold orbs */}
+      <div className="absolute top-0 left-0 w-72 h-72 bg-primary/8 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/8 rounded-full blur-3xl" />
+      <div className="absolute top-1/3 right-10 w-48 h-48 bg-secondary/5 rounded-full blur-2xl" />
 
       <div className="relative z-10 container mx-auto px-4 py-6 md:py-8">
         <div className="flex justify-center mb-4 md:mb-6">
@@ -51,7 +51,7 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
 
         {/* VSL */}
         <div className="max-w-4xl mx-auto mb-6 md:mb-8">
-          <div className="relative aspect-video bg-card rounded-2xl border-2 border-primary/30 shadow-gold overflow-hidden">
+          <div className="relative aspect-video bg-card rounded-2xl border-2 border-primary/30 shadow-metallic overflow-hidden">
             <iframe
               src="https://player-vz-3ebd9223-994.tv.pandavideo.com.br/embed/?v=ca056d71-829e-4229-bcd3-4e7c3c0c0626"
               className="absolute inset-0 w-full h-full"
@@ -68,9 +68,9 @@ export const HeroSection = ({ onVideoInteraction }: HeroSectionProps) => {
         </div>
 
         <div className="flex justify-center mb-4 md:mb-6 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 rounded-full" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 rounded-full animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              👑 QUERO MINHA TRANSFORMAÇÃO AGORA — R$ 197
+              👑 DESPERTAR MEU PODER NEFERTITI AGORA
             </a>
           </Button>
         </div>

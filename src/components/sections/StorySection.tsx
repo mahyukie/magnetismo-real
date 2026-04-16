@@ -5,7 +5,7 @@ export const StorySection = () => {
   return (
     <section className="py-10 md:py-24 bg-gradient-section-warm relative overflow-hidden">
       <div className="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/8 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
         <ScrollReveal>
@@ -47,14 +47,14 @@ export const StorySection = () => {
           <ScrollReveal delay={250}>
             <p className="text-muted-foreground">
               Sofri TANTO, que vcs não tem idéia... Peraí, vocês tem idéia SIM, porque estão passando ou já passaram pelo mesmo término doloroso de relacionamento.💔
-              Mas então algo aconteceu que mudou tudo... <strong className="text-foreground">Durante uma viagem pela primeira vez SOZINHA, para me "encontrar"</strong> (clichê, eu sei), conheci <strong className="text-primary">Dra. Sophia Miendez</strong> — uma psicóloga comportamental especializada em dinâmicas de atração que havia estudado por mais de 25 anos os padrões de comportamento e técnicas de atração das mulheres mais magneticamente irresistíveis da história. Cleópatra, a Rainha do Egito Antigo, por exemplo.
+              Mas então algo aconteceu que mudou tudo... <strong className="text-foreground">Durante uma viagem pela primeira vez SOZINHA, para me "encontrar"</strong> (clichê, eu sei), conheci <strong className="text-primary">Dra. Sophia Miendez</strong> — uma psicóloga comportamental especializada em dinâmicas de atração que havia estudado por mais de 25 anos os padrões de comportamento e técnicas de atração das mulheres mais magneticamente irresistíveis da história. Nefertiti, a Rainha do Egito Antigo, por exemplo.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={300}>
-            <div className="p-6 bg-gradient-card border-2 border-primary/30 rounded-2xl shadow-gold my-8">
-              <p className="text-foreground font-medium text-center text-base md:text-lg italic font-subheading">
-                "Marina, você realmente acredita que Cleópatra chorava no banheiro quando Marco Antônio a rejeitou?"
+            <div className="p-6 bg-gradient-card border-2 border-primary/30 rounded-2xl shadow-metallic my-8">
+              <p className="text-foreground font-medium text-center text-base md:text-lg italic font-quote">
+                "Marina, você realmente acredita que Nefertiti chorava no banheiro quando foi rejeitada?"
               </p>
               <p className="text-primary font-semibold text-center mt-3 text-sm md:text-base">
                 Claro que não. Ela fazia o OPOSTO disso. E MUITO provavelmente, tenha feito ELE chorar... kkk
@@ -108,9 +108,9 @@ export const StorySection = () => {
         </div>
 
         <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 QUERO MINHA TRANSFORMAÇÃO AGORA — R$ 197
+              👑 DESPERTAR MEU PODER NEFERTITI AGORA
             </a>
           </Button>
         </div>
