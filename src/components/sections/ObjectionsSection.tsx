@@ -38,10 +38,10 @@ export const ObjectionsSection = () => {
         <div className="grid md:grid-cols-2 gap-4 md:gap-6 max-w-5xl mx-auto">
           {objections.map((objection, index) => (
             <ScrollReveal key={index} delay={index * 100}>
-              <div className="bg-white/10 backdrop-blur-sm p-5 md:p-6 rounded-2xl border border-primary/15 hover:border-primary/40 transition-all h-full">
+              <div className="bg-white/10 backdrop-blur-sm p-5 md:p-6 rounded-2xl border border-primary/15 hover:border-primary/40 hover:shadow-metallic transition-all h-full">
                 <div className="flex items-start gap-3 md:gap-4 mb-4">
                   <MessageSquare className="w-5 h-5 md:w-6 md:h-6 text-primary/60 flex-shrink-0 mt-1" />
-                  <p className="font-semibold text-white italic text-sm md:text-base">{objection.question}</p>
+                  <p className="font-semibold text-white italic text-sm md:text-base font-quote">{objection.question}</p>
                 </div>
                 <div className="flex items-start gap-3 md:gap-4 pl-8 md:pl-10">
                   <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-primary flex-shrink-0 mt-1" />

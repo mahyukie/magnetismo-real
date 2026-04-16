@@ -63,7 +63,7 @@ export const DeliverablesSection = () => {
           <div className="space-y-6">
             {modules.map((module, moduleIndex) => (
               <ScrollReveal key={moduleIndex} delay={moduleIndex * 150}>
-                <div className="bg-card/30 rounded-2xl border border-primary/15 overflow-hidden">
+                <div className="bg-card/30 rounded-2xl border border-primary/15 overflow-hidden hover:shadow-metallic transition-all duration-300">
                   <div className="bg-primary/15 px-4 md:px-5 py-3 border-b border-primary/15">
                     <h3 className="font-semibold text-foreground text-sm md:text-lg flex items-center gap-2">
                       <span className="text-lg">{module.emoji}</span>
@@ -98,10 +98,10 @@ export const DeliverablesSection = () => {
               <img
                 src={mockupImage}
                 alt="Método Nefertiti - Acesse em qualquer dispositivo"
-                className="relative z-10 w-full max-w-lg mx-auto rounded-2xl shadow-gold"
+                className="relative z-10 w-full max-w-lg mx-auto rounded-2xl shadow-metallic"
                 loading="lazy"
               />
-              <div className="relative z-10 mt-6 bg-card px-5 md:px-6 py-4 rounded-2xl border border-primary/30 shadow-gold text-center">
+              <div className="relative z-10 mt-6 bg-card px-5 md:px-6 py-4 rounded-2xl border border-primary/30 shadow-metallic text-center">
                 <p className="text-base md:text-lg font-bold text-foreground flex items-center justify-center gap-2">
                   <Sparkles className="w-5 h-5 text-primary" />
                   Acesso Imediato

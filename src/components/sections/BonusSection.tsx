@@ -50,12 +50,12 @@ export const BonusSection = () => {
         <div className="grid md:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto">
           {bonuses.map((bonus, index) => (
             <ScrollReveal key={index} delay={index * 100}>
-              <div className="relative bg-gradient-card p-5 md:p-6 rounded-2xl border-2 border-primary/30 shadow-gold group hover:border-primary/60 transition-all h-full">
-                <div className="absolute -top-4 -right-4 w-10 h-10 bg-primary rounded-full flex items-center justify-center shadow-gold">
-                  <Gift className="w-5 h-5 text-primary-foreground" />
+              <div className="relative bg-gradient-card p-5 md:p-6 rounded-2xl border-2 border-primary/30 shadow-metallic group hover:border-primary/60 transition-all h-full">
+                <div className="absolute -top-4 -right-4 w-10 h-10 bg-gradient-metallic rounded-full flex items-center justify-center shadow-metallic">
+                  <Gift className="w-5 h-5 text-white" />
                 </div>
 
-                <div className="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center mb-4">
                   <bonus.icon className="w-6 h-6 text-primary" />
                 </div>
 
@@ -88,7 +88,7 @@ export const BonusSection = () => {
         <ScrollReveal delay={400}>
           <div className="max-w-3xl mx-auto mt-10 p-5 md:p-6 bg-primary/10 border border-primary/30 rounded-xl text-center">
             <p className="text-foreground font-bold text-sm md:text-lg">
-              🎁 VALOR TOTAL DOS BÔNUS: <span className="text-primary text-xl md:text-2xl">R$1.461,00</span>
+              🎁 VALOR TOTAL DOS BÔNUS: <span className="text-gradient-gold text-xl md:text-2xl">R$1.461,00</span>
             </p>
             <p className="text-muted-foreground text-xs md:text-sm mt-1">
               Inclusos GRATUITAMENTE na sua compra hoje
