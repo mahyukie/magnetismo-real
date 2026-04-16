@@ -1,6 +1,6 @@
-import { Check, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Check, Star } from "lucide-react";
 
 export const BenefitsSection = () => {
   return (
@@ -38,7 +38,7 @@ export const BenefitsSection = () => {
           </ScrollReveal>
 
           <ScrollReveal delay={300}>
-            <div className="p-5 md:p-6 bg-primary/10 border-2 border-primary/30 rounded-2xl shadow-gold">
+            <div className="p-5 md:p-6 bg-primary/10 border-2 border-primary/30 rounded-2xl shadow-metallic">
               <h3 className="font-bold text-primary mb-3 text-base md:text-lg">OU... OPÇÃO 2:</h3>
               <p className="text-foreground text-sm md:text-base leading-relaxed font-medium">
                 Decida que HOJE é o dia que sua vida amorosa muda para sempre. PORQUE VOCÊ MERECE!!👸
@@ -69,7 +69,7 @@ export const BenefitsSection = () => {
 
         {/* Pricing */}
         <ScrollReveal delay={500}>
-          <div className="text-center mt-10 bg-card p-6 md:p-8 rounded-2xl border-2 border-primary/30 shadow-gold max-w-lg mx-auto">
+          <div className="text-center mt-10 bg-card p-6 md:p-8 rounded-2xl border-2 border-primary/30 shadow-metallic max-w-lg mx-auto">
             <p className="text-muted-foreground text-sm">VALOR TOTAL se comprado separadamente:</p>
             <p className="line-through text-lg text-destructive">R$1.997,00</p>
             <p className="text-foreground font-bold text-base md:text-lg mt-2 font-cta">SEU INVESTIMENTO HOJE:</p>
@@ -81,9 +81,9 @@ export const BenefitsSection = () => {
 
         {/* CTA */}
         <div className="text-center mt-8 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 font-cta" asChild>
+          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 font-cta animate-shimmer" asChild>
             <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              🔥 CLIQUE AQUI PARA ENTRAR PARA O MÉTODO NEFERTITI — R$ 197
+              👑 CLIQUE AQUI PARA ENTRAR PARA O MÉTODO NEFERTITI
             </a>
           </Button>
         </div>
