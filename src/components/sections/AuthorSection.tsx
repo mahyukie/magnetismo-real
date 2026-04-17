@@ -1,5 +1,5 @@
 import marinaImage from "@/assets/marina-author.jpg";
-import logoAurora from "@/assets/logo-aurora.png";
+import logoAurora from "@/assets/logo-nefertiti.png";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ScrollReveal";
 

@@ -1,5 +1,5 @@
 import { Check, Sparkles, Flame, Gem, Zap } from "lucide-react";
-import mockupImage from "@/assets/mockup-devices.png";
+import mockupImage from "@/assets/mockup-nefertiti.png";
 import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const DeliverablesSection = () => {

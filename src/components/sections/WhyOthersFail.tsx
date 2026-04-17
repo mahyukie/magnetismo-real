@@ -37,7 +37,7 @@ export const WhyOthersFail = () => {
           <ScrollReveal delay={300}>
             <div className="bg-card/80 p-5 md:p-6 rounded-xl border border-primary/20 shadow-card">
               <p className="text-foreground text-sm md:text-base leading-relaxed">
-                Além disso, <strong>este preço especial</strong> foi autorizado pela minha equipe apenas para ESTE LANÇAMENTO. A partir da próxima turma, o investimento volta para <span className="text-destructive font-bold">R$1.997,00</span>.
+                Além disso, <strong>este preço especial</strong> foi autorizado pela minha equipe apenas para ESTE LANÇAMENTO. A partir da próxima turma, o investimento volta para <span className="text-destructive font-bold">R$997,00</span>.
               </p>
             </div>
           </ScrollReveal>

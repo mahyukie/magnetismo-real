@@ -1,4 +1,4 @@
-import logoAurora from "@/assets/logo-aurora.png";
+import logoAurora from "@/assets/logo-nefertiti.png";
 
 export const FooterSection = () => {
   return (
