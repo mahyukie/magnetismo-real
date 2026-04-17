@@ -14,6 +14,7 @@ import { GuaranteeSection } from "@/components/sections/GuaranteeSection";
 import { AuthorSection } from "@/components/sections/AuthorSection";
 import { FooterSection } from "@/components/sections/FooterSection";
 import { FloatingCTA } from "@/components/FloatingCTA";
+import { SocialProofPopup } from "@/components/SocialProofPopup";
 import { useVideoReveal } from "@/hooks/useVideoReveal";
 
 const Index = () => {
@@ -47,6 +48,7 @@ const Index = () => {
       </div>
       
       {isRevealed && <FloatingCTA />}
+      {isRevealed && <SocialProofPopup />}
     </main>
   );
 };
