@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Clock, Users } from "lucide-react";
-import logoAurora from "@/assets/logo-aurora.png";
+import logoAurora from "@/assets/logo-nefertiti.png";
 import { useEffect, useRef } from "react";
 
 interface HeroSectionProps {

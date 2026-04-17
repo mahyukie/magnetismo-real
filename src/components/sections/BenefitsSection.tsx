@@ -71,10 +71,10 @@ export const BenefitsSection = () => {
         <ScrollReveal delay={500}>
           <div className="text-center mt-10 bg-card p-6 md:p-8 rounded-2xl border-2 border-primary/30 shadow-metallic max-w-lg mx-auto">
             <p className="text-muted-foreground text-sm">VALOR TOTAL se comprado separadamente:</p>
-            <p className="line-through text-lg text-destructive">R$1.997,00</p>
+            <p className="line-through text-lg text-destructive">R$997,00</p>
             <p className="text-foreground font-bold text-base md:text-lg mt-2 font-cta">SEU INVESTIMENTO HOJE:</p>
-            <p className="font-cta font-bold text-3xl md:text-5xl mt-1 text-nefertiti-emerald">12 x 19,70</p>
-            <p className="text-sm mt-1 text-destructive font-semibold">OU R$197,00 Á VISTA</p>
+            <p className="font-cta font-bold text-3xl md:text-5xl mt-1 text-nefertiti-emerald">12 x 14,70</p>
+            <p className="text-sm mt-1 text-destructive font-semibold">OU R$147,00 Á VISTA</p>
             <p className="text-muted-foreground text-xs mt-1 italic">Menos que um jantar para duas pessoas</p>
           </div>
         </ScrollReveal>

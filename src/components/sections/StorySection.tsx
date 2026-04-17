@@ -12,7 +12,7 @@ export const StorySection = () => {
           <div className="max-w-3xl mx-auto text-center mb-10">
             <h2 className="font-heading text-2xl md:text-4xl font-bold leading-tight text-foreground">
               Vamos as Apresentações...<br />
-              Meu Nome é Marina e Eu Era Você <span className="text-gradient-gold">Há + 18 Meses Atrás...</span>
+              Meu Nome é Marina e Eu Era Você <span className="text-gradient-gold">Alguns Anos Atrás...</span>
             </h2>
           </div>
         </ScrollReveal>
