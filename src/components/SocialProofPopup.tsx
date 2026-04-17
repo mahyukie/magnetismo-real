@@ -13,6 +13,25 @@ const PURCHASES: Purchase[] = [
   { name: "Patrícia L.", city: "Belo Horizonte, MG", time: "há 6 minutos" },
   { name: "Camila O.", city: "Curitiba, PR", time: "há 9 minutos" },
   { name: "Fernanda M.", city: "Porto Alegre, RS", time: "há 12 minutos" },
+  { name: "Aline T.", city: "Salvador, BA", time: "há 14 minutos" },
+  { name: "Beatriz C.", city: "Fortaleza, CE", time: "há 16 minutos" },
+  { name: "Rafaela P.", city: "Recife, PE", time: "há 18 minutos" },
+  { name: "Larissa M.", city: "Brasília, DF", time: "há 21 minutos" },
+  { name: "Gabriela F.", city: "Manaus, AM", time: "há 23 minutos" },
+  { name: "Vanessa A.", city: "Goiânia, GO", time: "há 26 minutos" },
+  { name: "Bruna D.", city: "Florianópolis, SC", time: "há 28 minutos" },
+  { name: "Tatiane R.", city: "Vitória, ES", time: "há 31 minutos" },
+  { name: "Carolina N.", city: "Natal, RN", time: "há 33 minutos" },
+  { name: "Letícia B.", city: "Campinas, SP", time: "há 36 minutos" },
+  { name: "Amanda V.", city: "João Pessoa, PB", time: "há 38 minutos" },
+  { name: "Renata G.", city: "Maceió, AL", time: "há 41 minutos" },
+  { name: "Priscila H.", city: "Cuiabá, MT", time: "há 44 minutos" },
+  { name: "Sabrina K.", city: "Teresina, PI", time: "há 47 minutos" },
+  { name: "Débora L.", city: "Belém, PA", time: "há 49 minutos" },
+  { name: "Isabela Q.", city: "Aracaju, SE", time: "há 52 minutos" },
+  { name: "Natália Z.", city: "Londrina, PR", time: "há 54 minutos" },
+  { name: "Simone E.", city: "Santos, SP", time: "há 56 minutos" },
+  { name: "Roberta J.", city: "Niterói, RJ", time: "há 58 minutos" },
 ];
 
 export const SocialProofPopup = () => {
@@ -26,11 +45,11 @@ export const SocialProofPopup = () => {
     const showNext = () => {
       setIndex(i % PURCHASES.length);
       setVisible(true);
-      setTimeout(() => setVisible(false), 5000);
+      setTimeout(() => setVisible(false), 4000);
       i++;
     };
-    const initial = setTimeout(showNext, 4000);
-    const interval = setInterval(showNext, 12000);
+    const initial = setTimeout(showNext, 3000);
+    const interval = setInterval(showNext, 6000);
     return () => {
       clearTimeout(initial);
       clearInterval(interval);
@@ -68,7 +87,7 @@ export const SocialProofPopup = () => {
             {purchase.city} • {purchase.time}
           </p>
           <p className="text-[10px] text-primary/80 font-medium mt-0.5">
-            👑 +5 mulheres compraram nos últimos minutos
+            👑 +5 mulheres compraram na última hora...
           </p>
         </div>
       </div>
