@@ -45,7 +45,7 @@ export const CountdownBanner = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
         <div className="flex items-center gap-2 text-white">
           <AlertTriangle className="w-4 h-4 md:w-5 md:h-5 animate-pulse" />
-          <span className="font-cta font-bold text-xs md:text-base">⚠️ ÚLTIMAS 47 VAGAS DISPONÍVEIS!</span>
+          <span className="font-cta font-bold text-xs md:text-base">⚠️ ÚLTIMAS 12 VAGAS DISPONÍVEIS!</span>
         </div>
 
         <div className="flex items-center gap-2 md:gap-3">
