@@ -8,7 +8,7 @@ export const FloatingCTA = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 500 && !isDismissed) {
+      if (window.scrollY > 800 && !isDismissed) {
         setIsVisible(true);
       }
     };
@@ -34,7 +34,7 @@ export const FloatingCTA = () => {
               👑 Últimas vagas disponíveis! Garanta seu acesso agora
             </p>
             <p className="text-muted-foreground text-xs">
-              Garantia de 7 dias • Acesso imediato
+              R$ 147 à vista • Garantia de 21 dias
             </p>
           </div>
         </div>
