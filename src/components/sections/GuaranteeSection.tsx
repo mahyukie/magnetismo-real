@@ -10,7 +10,7 @@ export const GuaranteeSection = () => {
           <div className="text-center mb-10 md:mb-12">
             <span className="font-cta text-primary font-semibold text-sm uppercase tracking-wider">Sua Segurança</span>
             <h2 className="font-heading text-2xl md:text-5xl font-bold mt-2 text-foreground">
-              🛡️ <span className="text-gradient-gold">TRIPLA GARANTIA</span> BLINDADA
+              🛡️ <span className="text-gradient-gold">TRIPLA GARANTIA</span> BLINDADA DE 21 DIAS
             </h2>
           </div>
         </ScrollReveal>
@@ -31,9 +31,9 @@ export const GuaranteeSection = () => {
                   <div className="flex items-start gap-3 md:gap-4">
                     <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-foreground text-sm md:text-lg">✅ GARANTIA #1 — RESULTADOS OU DINHEIRO DE VOLTA</h3>
+                      <h3 className="font-semibold text-foreground text-sm md:text-lg">✅ GARANTIA #1 — RESULTADOS EM 21 DIAS OU 100% DE VOLTA</h3>
                       <p className="text-muted-foreground mt-1 text-xs md:text-base">
-                        Se em 7 dias você não se sentir pelo menos 10x mais confiante e poderosa, devolvemos CADA centavo. Sem perguntas, sem burocracia. SIMPLES ASSIM.
+                        Aplique o método por 21 dias. Se você não se sentir pelo menos 10x mais confiante, magnética e poderosa, devolvemos CADA centavo investido. Sem perguntas, sem burocracia, sem letras miúdas. O risco é 100% MEU.
                       </p>
                     </div>
                   </div>
@@ -41,9 +41,9 @@ export const GuaranteeSection = () => {
                   <div className="flex items-start gap-3 md:gap-4">
                     <RefreshCcw className="w-5 h-5 md:w-6 md:h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-foreground text-sm md:text-lg">✅ GARANTIA #2 — SATISFAÇÃO TOTAL</h3>
+                      <h3 className="font-semibold text-foreground text-sm md:text-lg">✅ GARANTIA #2 — SATISFAÇÃO TOTAL DE 30 DIAS</h3>
                       <p className="text-muted-foreground mt-1 text-xs md:text-base">
-                        Se por QUALQUER motivo você não ficar 100% satisfeita com o conteúdo, tem 7 dias para pedir reembolso total.
+                        Se por QUALQUER motivo você não ficar 100% satisfeita com o conteúdo, tem 30 dias para pedir reembolso total — basta enviar um e-mail.
                       </p>
                     </div>
                   </div>
