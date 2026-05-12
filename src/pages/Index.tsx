@@ -30,6 +30,7 @@ const Index = () => {
       <PainPointsSection />
       <FuturePacingSection />
       <TestimonialsSection />
+      <WhatsappProofSection />
       <StorySection />
       <MethodSection />
       <DeliverablesSection />
