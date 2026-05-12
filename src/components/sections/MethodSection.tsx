@@ -117,8 +117,8 @@ export const MethodSection = () => {
 
         <div className="text-center mt-10 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
-            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              👑 DESPERTAR MEU PODER NEFERTITI AGORA
+            <a href="https://pay.kiwify.com.br/iX5ySX9" target="_blank" rel="noopener noreferrer">
+              👑 QUERO DESPERTAR MINHA RAINHA INTERIOR NEFERTITI AGORA
             </a>
           </Button>
         </div>

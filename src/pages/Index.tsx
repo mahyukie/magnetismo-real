@@ -20,6 +20,7 @@ import { CostOfInactionSection } from "@/components/sections/CostOfInactionSecti
 import { PSSection } from "@/components/sections/PSSection";
 import { FloatingCTA } from "@/components/FloatingCTA";
 import { SocialProofPopup } from "@/components/SocialProofPopup";
+import { WhatsappProofSection } from "@/components/sections/WhatsappProofSection";
 
 const Index = () => {
   return (
@@ -29,6 +30,7 @@ const Index = () => {
       <PainPointsSection />
       <FuturePacingSection />
       <TestimonialsSection />
+      <WhatsappProofSection />
       <StorySection />
       <MethodSection />
       <DeliverablesSection />
