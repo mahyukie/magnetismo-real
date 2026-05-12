@@ -34,7 +34,7 @@ export const FloatingCTA = () => {
               👑 Últimas vagas disponíveis! Garanta seu acesso agora
             </p>
             <p className="text-muted-foreground text-xs">
-              R$ 147 à vista • Garantia de 21 dias
+              R$ 147 à vista • Garantia de 7 dias
             </p>
           </div>
         </div>
