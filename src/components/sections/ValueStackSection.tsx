@@ -65,8 +65,8 @@ export const ValueStackSection = () => {
 
         <div className="text-center mt-8 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 font-cta animate-shimmer" asChild>
-            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              👑 GARANTIR MEU ACESSO POR R$ 147
+            <a href="https://pay.kiwify.com.br/iX5ySX9" target="_blank" rel="noopener noreferrer">
+              👑 QUERO DESPERTAR MINHA RAINHA INTERIOR
             </a>
           </Button>
           <p className="text-xs text-muted-foreground mt-3">🔒 Pagamento 100% seguro • Acesso imediato</p>

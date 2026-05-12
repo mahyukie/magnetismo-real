@@ -19,7 +19,7 @@ export const PSSection = () => {
 
             <div className="text-center pt-2">
               <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 font-cta animate-shimmer" asChild>
-                <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
+                <a href="https://pay.kiwify.com.br/iX5ySX9" target="_blank" rel="noopener noreferrer">
                   👑 SIM, EU ESCOLHO ME TRANSFORMAR AGORA
                 </a>
               </Button>

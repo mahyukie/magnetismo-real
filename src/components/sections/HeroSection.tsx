@@ -28,8 +28,8 @@ export const HeroSection = () => {
 
         <div className="flex flex-col items-center gap-3 mb-6 md:mb-8 px-2">
           <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-5 rounded-full animate-shimmer" asChild>
-            <a href="https://pay.kiwify.com.br/NRl6nzM" target="_blank" rel="noopener noreferrer">
-              👑 QUERO ATIVAR MEU GATILHO NEFERTITI AGORA
+            <a href="https://pay.kiwify.com.br/iX5ySX9" target="_blank" rel="noopener noreferrer">
+              👑 Quero despertar minha Rainha Interior
             </a>
           </Button>
           <p className="text-xs text-muted-foreground">
