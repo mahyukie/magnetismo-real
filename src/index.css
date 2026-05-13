@@ -1,5 +1,5 @@
 /* Fontes Premium - Método Nefertiti */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -45,6 +45,10 @@
     --radius: 0.75rem;
 
     /* Nefertiti metallic tokens */
+    --nefertiti-pearl: 30 25% 96%;
+    --nefertiti-pearl-deep: 28 20% 90%;
+    --nefertiti-noir: 260 8% 12%;
+    --nefertiti-noir-soft: 260 10% 18%;
     --nefertiti-rose: 350 45% 82%;
     --nefertiti-rose-light: 350 40% 92%;
     --nefertiti-rose-dark: 350 50% 70%;
@@ -61,7 +65,9 @@
     --gradient-metallic: linear-gradient(135deg, hsl(350 45% 82%) 0%, hsl(25 45% 64%) 50%, hsl(20 55% 80%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(20 25% 97%) 0%, hsl(350 30% 95%) 100%);
     --gradient-cta: linear-gradient(135deg, hsl(338 77% 48%) 0%, hsl(338 80% 40%) 50%, hsl(338 82% 34%) 100%);
-    --gradient-section-dark: linear-gradient(180deg, hsl(340 25% 18%) 0%, hsl(340 30% 14%) 50%, hsl(335 28% 11%) 100%);
+    --gradient-section-dark: linear-gradient(180deg, hsl(260 12% 14%) 0%, hsl(260 14% 10%) 50%, hsl(260 16% 7%) 100%);
+    --gradient-pearl: linear-gradient(180deg, hsl(30 25% 96%) 0%, hsl(28 22% 92%) 50%, hsl(28 20% 88%) 100%);
+    --gradient-noir: linear-gradient(135deg, hsl(260 10% 18%) 0%, hsl(260 12% 12%) 50%, hsl(260 14% 8%) 100%);
     --gradient-section-beige: linear-gradient(180deg, hsl(20 30% 96%) 0%, hsl(350 25% 94%) 50%, hsl(20 25% 95%) 100%);
     --gradient-section-warm: linear-gradient(180deg, hsl(15 35% 94%) 0%, hsl(350 30% 93%) 50%, hsl(15 30% 94%) 100%);
     --gradient-section-gold: linear-gradient(180deg, hsl(350 35% 95%) 0%, hsl(350 30% 93%) 50%, hsl(20 25% 94%) 100%);
@@ -116,8 +122,14 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Open Sans', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (max-width: 768px) {
+    body { font-size: 15px; }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -131,12 +143,17 @@
   }
 
   .font-subheading {
-    font-family: 'Crimson Pro', Georgia, serif;
+    font-family: 'Lora', Georgia, serif;
   }
 
   .font-body {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Open Sans', system-ui, sans-serif;
   }
+
+  .bg-gradient-pearl { background: var(--gradient-pearl); }
+  .bg-gradient-noir { background: var(--gradient-noir); }
+  .text-noir { color: hsl(var(--nefertiti-noir)); }
+  .bg-noir { background: hsl(var(--nefertiti-noir)); }
 
   .font-cta {
     font-family: 'Montserrat', system-ui, sans-serif;

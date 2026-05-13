@@ -21,6 +21,7 @@ import { PSSection } from "@/components/sections/PSSection";
 import { FloatingCTA } from "@/components/FloatingCTA";
 import { SocialProofPopup } from "@/components/SocialProofPopup";
 import { WhatsappProofSection } from "@/components/sections/WhatsappProofSection";
+import { OfferSection } from "@/components/sections/OfferSection";
 
 const Index = () => {
   return (
@@ -41,6 +42,7 @@ const Index = () => {
       <CostOfInactionSection />
       <ValueStackSection />
       <BenefitsSection />
+      <OfferSection />
       <GuaranteeSection />
       <FAQSection />
       <AuthorSection />

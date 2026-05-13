@@ -8,133 +8,183 @@ import testimonial1 from "@/assets/testimonial-1.jpg";
 import testimonial2 from "@/assets/testimonial-2.jpg";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
+import testimonial5 from "@/assets/testimonial-5.jpg";
+import testimonial6 from "@/assets/testimonial-6.jpg";
 
 const testimonials = [
   {
     name: "Fernanda M.",
     age: 36,
-    location: "Publicitária",
+    location: "Publicitária · SP",
     image: testimonial1,
     rating: 5,
     result: "Ex voltou em 10 dias",
-    quote: "Em APENAS 10 dias aplicando o Método Nefertiti, meu ex (que havia me bloqueado há 3 meses) apareceu na porta da minha casa com flores dizendo que não conseguia mais viver sem mim. Naquele momento, eu nem sabia se queria ele de volta, mas ver o PODER que eu tinha desenvolvido foi incrível. Hoje estou com alguém 10x melhor!\"💃",
+    quote:
+      "Em apenas 10 dias aplicando o método, meu ex (que tinha me bloqueado há 3 meses) apareceu na porta de casa com flores. Naquele momento, eu nem sabia se queria ele de volta — só vi o PODER que tinha desenvolvido. Hoje estou com alguém 10x melhor.",
     highlight: "Desenvolveu poder de escolha total",
-    verified: true
   },
   {
     name: "Claudia R.",
     age: 49,
-    location: "Dentista",
+    location: "Dentista · RJ",
     image: testimonial2,
     rating: 5,
     result: "Novo amor aos 49",
-    quote: "Eu pensava que aos 49 anos e após 3 filhos eu jamais seria 'desejada' novamente. O Método Nefertiti me provou que estava COMPLETAMENTE errada. Hoje estou noiva de um empresário de 41 anos que me trata como a mulher mais especial do mundo.",
+    quote:
+      "Pensava que aos 49 e com 3 filhos eu jamais seria desejada de novo. O Método Nefertiti me provou o contrário. Hoje estou noiva de um empresário de 41 anos que me trata como a mulher mais especial do mundo.",
     highlight: "Provou que idade não importa",
-    verified: true
   },
   {
     name: "Ana Carolina",
     age: 28,
-    location: "Arquiteta",
+    location: "Arquiteta · MG",
     image: testimonial3,
     rating: 5,
     result: "3 pretendentes em 2 semanas",
-    quote: "Apliquei exatamente o que vocês ensinaram e em 2 semanas tinha 3 homens de alto valor interessados em mim. Pela primeira vez na vida EU é que estava escolhendo. Não precisava mais implorar por atenção, carinho, ou afeto... Agradeço mil vezes por ter encontrado vcs... kkkk Obrigada a toda equipe do Método Nefertiti.",
+    quote:
+      "Apliquei exatamente o que ensinaram e em 2 semanas tinha 3 homens de alto valor interessados em mim. Pela primeira vez na vida EU é que estava escolhendo. Não precisava mais implorar por atenção.",
     highlight: "Poder de escolha pela primeira vez",
-    verified: true
   },
   {
     name: "Regina T.",
     age: 55,
-    location: "Curitiba, PR",
+    location: "Curitiba · PR",
     image: testimonial4,
     rating: 5,
-    result: "Encontrou o amor na Maturidade",
-    quote: "Achava que minha idade era um problema. MENTIRA! O método NEFERTITI me mostrou que maturidade é PODER. Hoje namoro um homem 12 anos mais novo! E posso dizer com muita autoridade, nunca fui tão feliz! Nos divertimos muito juntos, viajamos, namoramos, enfim... só palavras de agradecimento a vcs meninas!! Me deram esperanças quando eu mesma já não tinha mais de encontrar o Amor... O meu MUITISSIMO OBRIGADA!!",
+    result: "Encontrou amor na maturidade",
+    quote:
+      "Achava que minha idade era um problema. Mentira! O método me mostrou que maturidade é PODER. Hoje namoro um homem 12 anos mais novo. Nunca fui tão feliz — viajamos, namoramos, vivemos.",
     highlight: "Maturidade como superpoder",
-    verified: true
-  }
+  },
+  {
+    name: "Larissa S.",
+    age: 26,
+    location: "Estudante · RS",
+    image: testimonial5,
+    rating: 5,
+    result: "Reconquistou a autoestima",
+    quote:
+      "Eu tinha 22 e me sentia 50 de tão acabada. Em 3 semanas, redescobri a mulher que eu era. Não é só sobre homem — é sobre acordar gostando de quem você vê no espelho.",
+    highlight: "Autoestima reconstruída do zero",
+  },
+  {
+    name: "Patrícia A.",
+    age: 45,
+    location: "Empresária · BA",
+    image: testimonial6,
+    rating: 5,
+    result: "2 pretendentes em 3 semanas",
+    quote:
+      "Após o divórcio achei que estava acabada. Em 3 semanas tinha 2 homens me cortejando — e finalmente entendi o oposto de migalhas emocionais. É um interesse genuíno em me decifrar.",
+    highlight: "Voltou a se sentir desejada",
+  },
 ];
 
 const stats = [
   { number: "3.847+", label: "Mulheres Transformadas" },
   { number: "96%", label: "Taxa de Satisfação" },
   { number: "21", label: "Dias Para Resultados" },
-  { number: "4.9", label: "Avaliação Média", icon: Star }
+  { number: "4.9", label: "Avaliação Média", icon: Star },
 ];
 
 export const TestimonialsSection = () => {
   return (
-    <section className="py-10 md:py-24 bg-background relative overflow-hidden">
+    <section className="py-14 md:py-24 bg-background relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 bg-primary rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-40 h-40 bg-accent rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-40 h-40 bg-secondary rounded-full blur-3xl" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <ScrollReveal>
-          <div className="text-center mb-10 md:mb-12">
-            <span className="inline-block px-4 py-2 bg-primary/20 text-secondary rounded-full text-sm font-semibold mb-4">
-              ⭐⭐⭐⭐⭐ RESULTADOS REAIS
+          <div className="text-center mb-12">
+            <span className="font-cta text-secondary uppercase tracking-[0.25em] text-[10px] md:text-xs">
+              ⭐⭐⭐⭐⭐ Resultados reais
             </span>
-            <h2 className="font-heading text-2xl md:text-5xl font-bold text-foreground mb-4">
-              O Que Nossas Alunas<br />
-              <span className="text-gradient-gold">Estão Dizendo</span>
+            <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mt-3 leading-[1.15]">
+              O que nossas alunas{" "}
+              <span className="text-gradient-gold">estão dizendo</span>
             </h2>
-            <p className="font-subheading text-sm md:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Já são mais de <strong className="text-primary">3.847 transformações</strong> documentadas
+            <p className="font-subheading text-base md:text-xl text-muted-foreground italic mt-4 max-w-2xl mx-auto">
+              Já são mais de <strong className="text-secondary not-italic">3.847 transformações</strong> documentadas.
             </p>
           </div>
         </ScrollReveal>
 
         <ScrollReveal delay={100}>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-12 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5 mb-12 max-w-4xl mx-auto">
             {stats.map((stat, index) => (
-              <div key={index} className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-xl p-3 md:p-4 text-center shadow-card">
-                <div className="flex items-center justify-center gap-1 mb-1">
-                  <span className="font-cta text-xl md:text-3xl font-bold text-gradient-gold">{stat.number}</span>
-                  {stat.icon && <stat.icon className="w-4 h-4 md:w-5 md:h-5 text-primary fill-primary" />}
+              <div
+                key={index}
+                className="bg-gradient-card border border-secondary/25 rounded-2xl p-4 text-center shadow-card"
+              >
+                <div className="flex items-center justify-center gap-1.5">
+                  <span className="font-cta text-2xl md:text-4xl font-extrabold text-gradient-gold leading-none">
+                    {stat.number}
+                  </span>
+                  {stat.icon && (
+                    <stat.icon className="w-4 h-4 md:w-5 md:h-5 text-secondary fill-secondary" />
+                  )}
                 </div>
-                <span className="text-xs text-muted-foreground">{stat.label}</span>
+                <span className="text-[11px] md:text-xs text-muted-foreground uppercase tracking-wider mt-2 block">
+                  {stat.label}
+                </span>
               </div>
             ))}
           </div>
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-6 max-w-5xl mx-auto">
-          {testimonials.map((testimonial, index) => (
-            <ScrollReveal key={index} delay={index * 100}>
-              <Card className="bg-card/80 backdrop-blur-sm border-primary/15 hover:border-primary/40 transition-all duration-300 hover:shadow-metallic group h-full">
-                <CardContent className="p-5 md:p-6">
-                  <div className="flex items-start gap-3 md:gap-4 mb-4">
-                    <Avatar className="w-14 h-14 md:w-16 md:h-16 border-2 border-primary/50 group-hover:border-primary transition-colors">
-                      <AvatarImage src={testimonial.image} alt={testimonial.name} className="object-cover" />
-                      <AvatarFallback className="bg-primary/20 text-foreground">{testimonial.name.charAt(0)}</AvatarFallback>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
+          {testimonials.map((t, index) => (
+            <ScrollReveal key={index} delay={index * 80}>
+              <Card className="bg-gradient-card border-secondary/20 hover:border-secondary/50 transition-all duration-300 hover:shadow-metallic group h-full">
+                <CardContent className="p-5 md:p-6 flex flex-col h-full">
+                  <div className="flex items-start gap-3 mb-4">
+                    <Avatar className="w-14 h-14 border-2 border-secondary/50 shadow-gold">
+                      <AvatarImage src={t.image} alt={t.name} className="object-cover" />
+                      <AvatarFallback className="bg-secondary/20 text-foreground">
+                        {t.name.charAt(0)}
+                      </AvatarFallback>
                     </Avatar>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-1">
-                        <h4 className="font-bold text-foreground text-sm md:text-base">{testimonial.name}</h4>
-                        {testimonial.verified && <CheckCircle className="w-4 h-4 text-nefertiti-emerald" />}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-1.5">
+                        <h4 className="font-heading font-bold text-foreground text-base truncate">
+                          {t.name}
+                        </h4>
+                        <CheckCircle className="w-4 h-4 text-nefertiti-emerald flex-shrink-0" />
                       </div>
-                      <p className="text-xs md:text-sm text-muted-foreground">{testimonial.age} anos • {testimonial.location}</p>
+                      <p className="text-xs text-muted-foreground">
+                        {t.age} anos · {t.location}
+                      </p>
                       <div className="flex gap-0.5 mt-1">
-                        {Array.from({ length: testimonial.rating }).map((_, i) => (
-                          <Star key={i} className="w-3 h-3 md:w-4 md:h-4 text-secondary fill-secondary" />
+                        {Array.from({ length: t.rating }).map((_, i) => (
+                          <Star key={i} className="w-3.5 h-3.5 text-secondary fill-secondary" />
                         ))}
                       </div>
                     </div>
                   </div>
-                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary/15 rounded-full mb-3">
-                    <Heart className="w-3 h-3 md:w-4 md:h-4 text-primary" />
-                    <span className="text-xs md:text-sm font-semibold text-foreground">{testimonial.result}</span>
+
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-secondary/15 rounded-full mb-3 self-start">
+                    <Heart className="w-3 h-3 text-secondary fill-secondary" />
+                    <span className="text-xs font-cta font-semibold text-foreground uppercase tracking-wider">
+                      {t.result}
+                    </span>
                   </div>
-                  <div className="relative">
-                    <Quote className="absolute -top-2 -left-2 w-6 h-6 md:w-8 md:h-8 text-primary/20" />
-                    <p className="text-muted-foreground italic pl-5 md:pl-6 leading-relaxed text-xs md:text-sm font-quote">"{testimonial.quote}"</p>
+
+                  <div className="relative flex-1">
+                    <Quote className="absolute -top-1 -left-1 w-7 h-7 text-secondary/15" />
+                    <p className="text-muted-foreground italic pl-5 leading-relaxed text-sm font-quote">
+                      "{t.quote}"
+                    </p>
                   </div>
-                  <div className="mt-3 pt-3 border-t border-border/50">
-                    <span className="text-xs text-muted-foreground">✨ Destaque:</span>
-                    <p className="font-semibold text-foreground text-sm">{testimonial.highlight}</p>
+
+                  <div className="mt-4 pt-3 border-t border-border/50">
+                    <span className="text-[10px] text-muted-foreground uppercase tracking-wider">
+                      ✨ Destaque
+                    </span>
+                    <p className="font-subheading text-foreground text-sm mt-0.5">
+                      {t.highlight}
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -142,10 +192,15 @@ export const TestimonialsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-10 px-2">
-          <Button variant="cta" size="xxl" className="w-full max-w-xl text-xs md:text-base leading-tight text-center whitespace-normal h-auto py-4 font-cta animate-shimmer" asChild>
+        <div className="text-center mt-12 px-2">
+          <Button
+            variant="cta"
+            size="xxl"
+            className="w-full max-w-xl text-sm md:text-lg leading-tight text-center whitespace-normal h-auto py-5 rounded-full font-cta animate-shimmer"
+            asChild
+          >
             <a href="https://pay.kiwify.com.br/iX5ySX9" target="_blank" rel="noopener noreferrer">
-              👑 QUERO DESPERTAR MINHA RAINHA INTERIOR NEFERTITI AGORA
+              👑 QUERO O MÉTODO NEFERTITI AGORA — R$ 147
             </a>
           </Button>
         </div>
