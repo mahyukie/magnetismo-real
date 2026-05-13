@@ -48,6 +48,10 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         nefertiti: {
+          pearl: "hsl(var(--nefertiti-pearl))",
+          "pearl-deep": "hsl(var(--nefertiti-pearl-deep))",
+          noir: "hsl(var(--nefertiti-noir))",
+          "noir-soft": "hsl(var(--nefertiti-noir-soft))",
           rose: "hsl(var(--nefertiti-rose))",
           "rose-light": "hsl(var(--nefertiti-rose-light))",
           "rose-dark": "hsl(var(--nefertiti-rose-dark))",
@@ -77,12 +81,12 @@ export default {
       },
       fontFamily: {
         heading: ['Playfair Display', 'Georgia', 'serif'],
-        subheading: ['Crimson Pro', 'Georgia', 'serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        subheading: ['Lora', 'Georgia', 'serif'],
+        body: ['Open Sans', 'system-ui', 'sans-serif'],
         cta: ['Montserrat', 'system-ui', 'sans-serif'],
         quote: ['Libre Baskerville', 'Georgia', 'serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Open Sans', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
