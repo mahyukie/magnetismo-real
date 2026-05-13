@@ -41,8 +41,7 @@ const Index = () => {
       <NotForYouSection />
       <CostOfInactionSection />
       <ValueStackSection />
-      <BenefitsSection>
-      </BenefitsSection>
+      <BenefitsSection />
       <OfferSection />
       <GuaranteeSection />
       <FAQSection />
